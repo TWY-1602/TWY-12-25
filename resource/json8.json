@@ -1,0 +1,287 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "only": {
+            "name": "只看有货",
+            "value": 0
+        },
+        "attr": [
+            {
+                "name": "品牌",
+                "key": "brand",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    },
+                    {
+                        "id": "7",
+                        "text": "Nestle/雀巢"
+                    },
+                    {
+                        "id": "210",
+                        "text": "Swisse"
+                    },
+                    {
+                        "id": "211",
+                        "text": "Blackmores"
+                    },
+                    {
+                        "id": "212",
+                        "text": "Moroccanoil"
+                    },
+                    {
+                        "id": "213",
+                        "text": "Freezeframe"
+                    },
+                    {
+                        "id": "243",
+                        "text": "Lucas Papaw"
+                    },
+                    {
+                        "id": "374",
+                        "text": "Goat Soap"
+                    },
+                    {
+                        "id": "420",
+                        "text": "TIMTAM/雅乐思"
+                    },
+                    {
+                        "id": "421",
+                        "text": "Lindt/瑞士莲"
+                    },
+                    {
+                        "id": "422",
+                        "text": "Devondale/德运"
+                    },
+                    {
+                        "id": "440",
+                        "text": "Nulax/乐康膏"
+                    },
+                    {
+                        "id": "443",
+                        "text": "Thursday/星期四"
+                    },
+                    {
+                        "id": "447",
+                        "text": "Ego/意高"
+                    },
+                    {
+                        "id": "463",
+                        "text": "Jurlique/茱莉蔻"
+                    },
+                    {
+                        "id": "704",
+                        "text": "Bio island"
+                    },
+                    {
+                        "id": "705",
+                        "text": "Healthy Care"
+                    }
+                ]
+            },
+            {
+                "name": "国家",
+                "key": "country",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    },
+                    {
+                        "id": "14",
+                        "text": "澳洲"
+                    }
+                ]
+            }
+        ],
+        "cate": [
+            {
+                "cat_id": "",
+                "cut_name": "全部商品",
+                "cat_name": "全部商品",
+                "cat_img": "",
+                "child": [
+                    {
+                        "cat_id": "",
+                        "cut_name": "全部商品",
+                        "cat_name": "全部商品",
+                        "cat_img": ""
+                    }
+                ]
+            },
+            {
+                "cat_id": "544",
+                "cut_name": "女性专区",
+                "cat_name": "女性专区",
+                "cat_img": "http://s06.lmbang.com/M00/1D/C0/tzlM81XIQkiAIhFtAAAH5YY_8oo107.png",
+                "child": [
+                    {
+                        "cat_id": "544",
+                        "cut_name": "全部女性专区",
+                        "cat_name": "全部女性专区",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "546",
+                        "cut_name": "个护美妆",
+                        "cat_name": "个护美妆",
+                        "cat_img": "http://s02.lmbang.com/M00/2C/8C/DpgiA1XDHIGAAES4AABM8Y1ZNSw073.jpg"
+                    }
+                ]
+            },
+            {
+                "cat_id": "576",
+                "cut_name": "婴幼洗护",
+                "cat_name": "婴幼洗护",
+                "cat_img": "http://s01.lmbang.com/M00/30/D4/DpgiA1XIQoGAT3kMAAANBAsa4A8320.png",
+                "child": [
+                    {
+                        "cat_id": "576",
+                        "cut_name": "全部婴幼洗护",
+                        "cat_name": "全部婴幼洗护",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "578",
+                        "cut_name": "宝宝洗浴",
+                        "cat_name": "宝宝洗浴",
+                        "cat_img": "http://s04.lmbang.com/M00/49/FA/DpgiA1TTKg-ATzOHAAA-iTY6AJQ568.png"
+                    },
+                    {
+                        "cat_id": "577",
+                        "cut_name": "宝宝护肤",
+                        "cat_name": "宝宝护肤",
+                        "cat_img": "http://s08.lmbang.com/M00/49/ED/DpgiA1TTI5OAb-6yAAAxpCph4Yk499.png"
+                    }
+                ]
+            },
+            {
+                "cat_id": "587",
+                "cut_name": "食品保健",
+                "cat_name": "食品保健",
+                "cat_img": "http://s04.lmbang.com/M00/1D/C1/tzlM81XIQo2AZxXqAAAJjf6Qa-k951.png",
+                "child": [
+                    {
+                        "cat_id": "587",
+                        "cut_name": "全部食品保健",
+                        "cat_name": "全部食品保健",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "609",
+                        "cut_name": "调节免疫",
+                        "cat_name": "调节免疫",
+                        "cat_img": "http://s08.lmbang.com/M00/4A/0C/DpgiA1TTNL6ARqNBAAA4p_Sn6cg478.png"
+                    },
+                    {
+                        "cat_id": "598",
+                        "cut_name": "肝肾养护",
+                        "cat_name": "肝肾养护",
+                        "cat_img": "http://s01.lmbang.com/M00/37/01/tzlM81TTNY6AakscAAA6NPXvaqA857.png"
+                    },
+                    {
+                        "cat_id": "604",
+                        "cut_name": "美容养颜",
+                        "cat_name": "美容养颜",
+                        "cat_img": "http://s03.lmbang.com/M00/38/76/tzlM81TUoNeAdf2FAABM9cyr8cg625.png"
+                    },
+                    {
+                        "cat_id": "599",
+                        "cut_name": "骨骼强健",
+                        "cat_name": "骨骼强健",
+                        "cat_img": "http://s08.lmbang.com/M00/37/01/tzlM81TTNYOAMMUWAABOt9aH29s523.png"
+                    },
+                    {
+                        "cat_id": "613",
+                        "cut_name": "血糖平衡",
+                        "cat_name": "血糖平衡",
+                        "cat_img": "http://s03.lmbang.com/M00/37/0E/tzlM81TTPYeARUBOAAA_vOyjBp4648.png"
+                    },
+                    {
+                        "cat_id": "606",
+                        "cut_name": "明目益智",
+                        "cat_name": "明目益智",
+                        "cat_img": "http://s05.lmbang.com/M00/4A/0F/DpgiA1TTNq-AOt4mAAA5NY7uFKs523.png"
+                    },
+                    {
+                        "cat_id": "596",
+                        "cut_name": "改善睡眠",
+                        "cat_name": "改善睡眠",
+                        "cat_img": "http://s03.lmbang.com/M00/4A/0C/DpgiA1TTNOqAcb-GAAA0ICioY1U512.png"
+                    },
+                    {
+                        "cat_id": "595",
+                        "cut_name": "蜂产品",
+                        "cat_name": "蜂产品",
+                        "cat_img": "http://s02.lmbang.com/M00/60/23/DpgiA1TxqXGAPGZbAABNJ3rFk8I369.jpg"
+                    },
+                    {
+                        "cat_id": "610",
+                        "cut_name": "维生素",
+                        "cat_name": "维生素",
+                        "cat_img": "http://s04.lmbang.com/M00/38/76/tzlM81TUoKmAdFcLAAAwG4GTqCA474.png"
+                    },
+                    {
+                        "cat_id": "600",
+                        "cut_name": "胶原蛋白",
+                        "cat_name": "胶原蛋白",
+                        "cat_img": "http://s07.lmbang.com/M00/4A/1B/DpgiA1TTPbSAIS0kAAAouyev3sY753.png"
+                    },
+                    {
+                        "cat_id": "615",
+                        "cut_name": "鱼...磷脂",
+                        "cat_name": "鱼油/磷脂",
+                        "cat_img": "http://s07.lmbang.com/M00/38/76/tzlM81TUoLSALxRyAAAqscfPfI8100.png"
+                    },
+                    {
+                        "cat_id": "602",
+                        "cut_name": "抗氧化",
+                        "cat_name": "抗氧化",
+                        "cat_img": "http://s04.lmbang.com/M00/4A/1A/DpgiA1TTPVeAQIwWAABDbGgzGc8650.png"
+                    }
+                ]
+            },
+            {
+                "cat_id": "497",
+                "cut_name": "辅食营养",
+                "cat_name": "辅食营养",
+                "cat_img": "http://s02.lmbang.com/M00/30/D6/DpgiA1XIRGSAcZ0JAAAMMHX-JDE957.png",
+                "child": [
+                    {
+                        "cat_id": "497",
+                        "cut_name": "全部辅食营养",
+                        "cat_name": "全部辅食营养",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "498",
+                        "cut_name": "宝宝零食",
+                        "cat_name": "宝宝零食",
+                        "cat_img": "http://s03.lmbang.com/M00/B9/DE/DpgiA1VAU-eANfPiAAAp8L6EGfU090.png"
+                    },
+                    {
+                        "cat_id": "502",
+                        "cut_name": "钙铁锌",
+                        "cat_name": "钙铁锌",
+                        "cat_img": "http://s01.lmbang.com/M00/36/DE/tzlM81TTIbCAO_OuAABXTJl5KEw512.jpg"
+                    },
+                    {
+                        "cat_id": "499",
+                        "cut_name": "儿童DHA",
+                        "cat_name": "儿童DHA",
+                        "cat_img": "http://s07.lmbang.com/M00/36/DD/tzlM81TTIZ6AEXnfAABZkVsfiX0050.jpg"
+                    },
+                    {
+                        "cat_id": "510",
+                        "cut_name": "鱼油",
+                        "cat_name": "鱼油",
+                        "cat_img": "http://s02.lmbang.com/M00/36/DD/tzlM81TTIaSANYw8AABc6LHQf3c354.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    "timestamp": 1482324593
+}

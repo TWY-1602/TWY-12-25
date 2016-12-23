@@ -1,0 +1,62 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "spec_id": "13444",
+                "spec_name": "MOBAZA婴儿服饰专场",
+                "banner": "http://s01.lmbang.com/M00/06/7C/ecloD1hTs0yAJ-4FAAN9M8HhV40506.jpg",
+                "start_time": "1481940000",
+                "end_time": "1482508799",
+                "hits": "680",
+                "remind_num": "0",
+                "discount": "3.2",
+                "typeid": "0",
+                "ad_link": "",
+                "sold_total_nums": "1402",
+                "sortnum": 986,
+                "notice": "剩2天",
+                "is_remind": "0",
+                "is_start": "1"
+            },
+            {
+                "spec_id": "13445",
+                "spec_name": "韩国KK儿童配饰专场",
+                "banner": "http://s01.lmbang.com/M00/06/7C/ecloD1hTs52AViGnAARV9x-zqy0423.jpg",
+                "start_time": "1481940000",
+                "end_time": "1482458399",
+                "hits": "958",
+                "remind_num": "0",
+                "discount": "2.2",
+                "typeid": "0",
+                "ad_link": "",
+                "sold_total_nums": "1012",
+                "sortnum": 984,
+                "notice": "剩1天",
+                "is_remind": "0",
+                "is_start": "1"
+            },
+            {
+                "spec_id": "13319",
+                "spec_name": "趣威早教益智专场",
+                "banner": "http://s02.lmbang.com/M00/08/BA/ecloA1hA1weANMocAAEKLewbUqg887.jpg",
+                "start_time": "1481940000",
+                "end_time": "1482458399",
+                "hits": "1017",
+                "remind_num": "1",
+                "discount": "3.8",
+                "typeid": "0",
+                "ad_link": "",
+                "sold_total_nums": "21025",
+                "sortnum": 982,
+                "notice": "剩1天",
+                "is_remind": "0",
+                "is_start": "1"
+            }
+        ],
+        "seckill": [],
+        "top": []
+    },
+    "timestamp": 1482321207
+}

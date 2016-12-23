@@ -1,0 +1,61 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "only": {
+            "name": "只看有货",
+            "value": 0
+        },
+        "attr": [
+            {
+                "name": "品牌",
+                "key": "brand",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    },
+                    {
+                        "id": "74",
+                        "text": "KAO/花王"
+                    },
+                    {
+                        "id": "859",
+                        "text": "bella"
+                    },
+                    {
+                        "id": "1442",
+                        "text": "静外"
+                    }
+                ]
+            },
+            {
+                "name": "国家",
+                "key": "country",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    }
+                ]
+            }
+        ],
+        "cate": [
+            {
+                "cat_id": "",
+                "cut_name": "全部商品",
+                "cat_name": "全部商品",
+                "cat_img": "",
+                "child": [
+                    {
+                        "cat_id": "",
+                        "cut_name": "全部商品",
+                        "cat_name": "全部商品",
+                        "cat_img": ""
+                    }
+                ]
+            }
+        ]
+    },
+    "timestamp": 1482324048
+}

@@ -1,0 +1,285 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "only": {
+            "name": "只看有货",
+            "value": 0
+        },
+        "attr": [
+            {
+                "name": "品牌",
+                "key": "brand",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    },
+                    {
+                        "id": "46",
+                        "text": "Pigeon/贝亲"
+                    },
+                    {
+                        "id": "581",
+                        "text": "bornbay贝贝怡"
+                    },
+                    {
+                        "id": "667",
+                        "text": "恩贝氏"
+                    },
+                    {
+                        "id": "807",
+                        "text": "康美婷"
+                    },
+                    {
+                        "id": "811",
+                        "text": "mammy village/六甲村"
+                    },
+                    {
+                        "id": "903",
+                        "text": "慕倩"
+                    },
+                    {
+                        "id": "907",
+                        "text": "亲润"
+                    },
+                    {
+                        "id": "912",
+                        "text": "GL格朗"
+                    },
+                    {
+                        "id": "977",
+                        "text": "南极人"
+                    },
+                    {
+                        "id": "1084",
+                        "text": "爱恩幼"
+                    },
+                    {
+                        "id": "1123",
+                        "text": "俞兆林"
+                    },
+                    {
+                        "id": "1189",
+                        "text": "婧麒"
+                    },
+                    {
+                        "id": "1347",
+                        "text": "宝美尚"
+                    },
+                    {
+                        "id": "1350",
+                        "text": "Heine"
+                    },
+                    {
+                        "id": "1415",
+                        "text": "一窝熊崽"
+                    },
+                    {
+                        "id": "1436",
+                        "text": "俪约伶"
+                    },
+                    {
+                        "id": "1443",
+                        "text": "贝儿欣"
+                    },
+                    {
+                        "id": "1491",
+                        "text": "奥贝因"
+                    },
+                    {
+                        "id": "1529",
+                        "text": "伊凡优哺"
+                    },
+                    {
+                        "id": "1587",
+                        "text": "慕纯"
+                    }
+                ]
+            },
+            {
+                "name": "国家",
+                "key": "country",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    }
+                ]
+            }
+        ],
+        "cate": [
+            {
+                "cat_id": "",
+                "cut_name": "全部商品",
+                "cat_name": "全部商品",
+                "cat_img": "",
+                "child": [
+                    {
+                        "cat_id": "",
+                        "cut_name": "全部商品",
+                        "cat_name": "全部商品",
+                        "cat_img": ""
+                    }
+                ]
+            },
+            {
+                "cat_id": "544",
+                "cut_name": "女性专区",
+                "cat_name": "女性专区",
+                "cat_img": "http://s06.lmbang.com/M00/1D/C0/tzlM81XIQkiAIhFtAAAH5YY_8oo107.png",
+                "child": [
+                    {
+                        "cat_id": "544",
+                        "cut_name": "全部女性专区",
+                        "cat_name": "全部女性专区",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "546",
+                        "cut_name": "个护美妆",
+                        "cat_name": "个护美妆",
+                        "cat_img": "http://s02.lmbang.com/M00/2C/8C/DpgiA1XDHIGAAES4AABM8Y1ZNSw073.jpg"
+                    },
+                    {
+                        "cat_id": "552",
+                        "cut_name": "孕产护理",
+                        "cat_name": "孕产护理",
+                        "cat_img": "http://s01.lmbang.com/M00/4B/85/DpgiA1TUolmAKV_XAAB911bKDGI120.png"
+                    },
+                    {
+                        "cat_id": "551",
+                        "cut_name": "孕产妇装",
+                        "cat_name": "孕产妇装",
+                        "cat_img": "http://s04.lmbang.com/M00/4B/85/DpgiA1TUolSANVckAAA6CKfLcuA370.png"
+                    },
+                    {
+                        "cat_id": "548",
+                        "cut_name": "美体塑身",
+                        "cat_name": "美体塑身",
+                        "cat_img": "http://s07.lmbang.com/M00/51/81/DpgiA1TbLhWAFgfWAABu5cEM6hE146.png"
+                    },
+                    {
+                        "cat_id": "547",
+                        "cut_name": "妈...婴带",
+                        "cat_name": "妈咪包/背婴带",
+                        "cat_img": "http://s07.lmbang.com/M00/4B/85/DpgiA1TUok-ATeDFAABphv6x2Ds723.png"
+                    },
+                    {
+                        "cat_id": "545",
+                        "cut_name": "哺乳内衣",
+                        "cat_name": "哺乳内衣",
+                        "cat_img": "http://s05.lmbang.com/M00/38/78/tzlM81TUokaAMB3_AABq_V2uMjw260.png"
+                    },
+                    {
+                        "cat_id": "1029",
+                        "cut_name": "保暖内衣",
+                        "cat_name": "保暖内衣",
+                        "cat_img": "http://s06.lmbang.com/M00/5C/6E/ecloD1ZJZY6Aax-HAAFuET1qOu8581.jpg"
+                    },
+                    {
+                        "cat_id": "1030",
+                        "cut_name": "日常用品",
+                        "cat_name": "日常用品",
+                        "cat_img": ""
+                    }
+                ]
+            },
+            {
+                "cat_id": "557",
+                "cut_name": "喂养用品",
+                "cat_name": "喂养用品",
+                "cat_img": "http://s01.lmbang.com/M00/30/D3/DpgiA1XIQmKATjDHAAAKl6149oo225.png",
+                "child": [
+                    {
+                        "cat_id": "557",
+                        "cut_name": "全部喂养用品",
+                        "cat_name": "全部喂养用品",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "561",
+                        "cut_name": "奶瓶",
+                        "cat_name": "奶瓶",
+                        "cat_img": "http://s05.lmbang.com/M00/4A/19/DpgiA1TTPGOAelTFAAAnhWH2ssM873.png"
+                    },
+                    {
+                        "cat_id": "565",
+                        "cut_name": "水...配件",
+                        "cat_name": "水壶水杯/配件",
+                        "cat_img": "http://s08.lmbang.com/M00/36/DA/tzlM81TTIAeAMnqWAAAqKvfMZz4986.png"
+                    },
+                    {
+                        "cat_id": "563",
+                        "cut_name": "奶嘴",
+                        "cat_name": "奶嘴",
+                        "cat_img": "http://s08.lmbang.com/M00/49/E8/DpgiA1TTIKeAdtTZAAA3BOiBiro197.png"
+                    },
+                    {
+                        "cat_id": "568",
+                        "cut_name": "吸...奶器",
+                        "cat_name": "吸/储奶器",
+                        "cat_img": "http://s02.lmbang.com/M00/36/DB/tzlM81TTIC-AeICYAAA7IakYr1g571.png"
+                    },
+                    {
+                        "cat_id": "562",
+                        "cut_name": "奶...清洗",
+                        "cat_name": "奶瓶配件/清洗",
+                        "cat_img": "http://s04.lmbang.com/M00/36/DB/tzlM81TTIJOAClMgAAAye3JVMZk929.png"
+                    },
+                    {
+                        "cat_id": "558",
+                        "cut_name": "安抚牙胶",
+                        "cat_name": "安抚牙胶",
+                        "cat_img": "http://s01.lmbang.com/M00/36/DA/tzlM81TTH-eASW-6AAAhi5yuaOk744.png"
+                    }
+                ]
+            },
+            {
+                "cat_id": "576",
+                "cut_name": "婴幼洗护",
+                "cat_name": "婴幼洗护",
+                "cat_img": "http://s01.lmbang.com/M00/30/D4/DpgiA1XIQoGAT3kMAAANBAsa4A8320.png",
+                "child": [
+                    {
+                        "cat_id": "576",
+                        "cut_name": "全部婴幼洗护",
+                        "cat_name": "全部婴幼洗护",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "585",
+                        "cut_name": "婴儿湿巾",
+                        "cat_name": "婴儿湿巾",
+                        "cat_img": "http://s02.lmbang.com/M00/86/D1/DpgiA1UUw12AeeCxAABab0BcxoQ025.jpg"
+                    },
+                    {
+                        "cat_id": "578",
+                        "cut_name": "宝宝洗浴",
+                        "cat_name": "宝宝洗浴",
+                        "cat_img": "http://s04.lmbang.com/M00/49/FA/DpgiA1TTKg-ATzOHAAA-iTY6AJQ568.png"
+                    },
+                    {
+                        "cat_id": "581",
+                        "cut_name": "日常护理",
+                        "cat_name": "日常护理",
+                        "cat_img": "http://s04.lmbang.com/M00/4B/81/DpgiA1TUnsyAYbpqAAAhdTevOzU805.png"
+                    },
+                    {
+                        "cat_id": "579",
+                        "cut_name": "儿童口腔",
+                        "cat_name": "儿童口腔",
+                        "cat_img": "http://s01.lmbang.com/M00/4B/85/DpgiA1TUofWAa2m9AAAtN61YbBc279.png"
+                    },
+                    {
+                        "cat_id": "582",
+                        "cut_name": "洗手液",
+                        "cat_name": "洗手液",
+                        "cat_img": "http://s02.lmbang.com/M00/4B/81/DpgiA1TUntaAeELaAAAw-fraGsg721.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "timestamp": 1482324174
+}

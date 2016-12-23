@@ -1,0 +1,98 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": [
+        {
+            "goods_id": "31745",
+            "goods_name": "惠氏金装爱儿乐1段 升级新配方 助力成长",
+            "goods_thumb": "http://s03.lmbang.com/M00/4F/53/ecloA1Ygw_KAFa0WAAGw9fqyLTE816.jpg!c300x300x100.jpg",
+            "shop_price": "248",
+            "market_price": "248",
+            "sold_number": "329",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 10,
+            "praise": "100%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "2806",
+            "goods_name": "【直邮】澳洲直采 安全放心补！Blackmores澳佳宝 成人孕妇黄金素 180粒",
+            "goods_thumb": "http://s08.lmbang.com/M00/1E/F1/tzlM81S_aLSAfXczAANa7lp0A0g310.jpg!c300x300x100.jpg",
+            "shop_price": "245",
+            "market_price": "365",
+            "sold_number": "209",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 99,
+            "praise": "98%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "746",
+            "goods_name": "【直邮】纽约直采-Abbott雅培3段奶粉624g",
+            "goods_thumb": "http://s06.lmbang.com/M00/9A/1C/tzlM81U0qdeAYiWvAAMlFZuFQWY311.jpg!c300x300x100.jpg",
+            "shop_price": "208",
+            "market_price": "369",
+            "sold_number": "288",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 99,
+            "praise": "100%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "6264",
+            "goods_name": "【直邮】不要湿疹 滋润小分子易吸收-Goat Soap 手工山羊奶皂 100g*3块（0月+适用）",
+            "goods_thumb": "http://s06.lmbang.com/M00/5F/DC/DpgiA1TxbG6AWW-HAAOnf91gQe0256.jpg!c300x300x100.jpg",
+            "shop_price": "90",
+            "market_price": "136",
+            "sold_number": "82",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 99,
+            "praise": "96%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "54368",
+            "goods_name": "【保税】COSME大赏第一名-日本原装 DHC 深层橄榄卸妆油 70ml",
+            "goods_thumb": "http://s02.lmbang.com/M00/E8/D6/DpgiA1drvPaAafoiAACAAkhcs3k814.gif!c300x300x100.gif",
+            "shop_price": "76",
+            "market_price": "122",
+            "sold_number": "37",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 4,
+            "praise": "100%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "7019",
+            "goods_name": "双层镶嵌工艺-韩国Pororo啵乐乐防滑不锈钢水杯225ml",
+            "goods_thumb": "http://s03.lmbang.com/M00/DC/BD/DpgiA1VkJeOAdLuJAAMehESwD5M880.jpg!c300x300x100.jpg",
+            "shop_price": "51",
+            "market_price": "89",
+            "sold_number": "48",
+            "goods_unit": "件",
+            "is_down": "0",
+            "mod_number": 40,
+            "praise": "100%",
+            "is_less": 0
+        },
+        {
+            "goods_id": "60713",
+            "goods_name": "Kocotree婴幼儿防雾霾口罩1包（5个）",
+            "goods_thumb": "http://s06.lmbang.com/M00/16/89/DpgiA1gRvz-AfMcGAAO-ckVVEIs751.jpg!c300x300x100.jpg",
+            "shop_price": "15",
+            "market_price": "29",
+            "sold_number": "27",
+            "goods_unit": "件",
+            "is_down": "1",
+            "mod_number": 51,
+            "praise": "100%",
+            "is_less": 1
+        }
+    ],
+    "timestamp": 1482321247
+}

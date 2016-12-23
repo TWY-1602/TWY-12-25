@@ -1,0 +1,52 @@
+#shopcar{width: 100%;height: 88%;position: fixed;z-index: 4;}
+#shopcar .top{height: 10%;width: 100%;border-bottom: 1px solid #d2d2d2;}
+#shopcar .top p{font-size: 108%;text-align: center;line-height: 2.5rem;}
+#shopcar .top a{    color: #735660;font-size: 86%;margin-left: 85%;margin-top: -9%;  display: block;}
+#shopcar .main{width: 100%;height: 75%;background: #f6f6f6;border-bottom: 1px solid #d2d2d2;padding: 0.1px}
+#shopcar .main p:first-child{margin-top: 3rem;
+    margin-left: auto;
+    display: block;
+    background-image: url(img/bg_icons.png);
+    background-size: 10rem;
+    background-position: 0 0;
+    height: 9rem;
+    width: 10rem;
+    margin-right: auto;}
+#shopcar .main p:last-of-type{color: #735660;font-size: 86%;    margin-top: 2%;margin-left: 42%;}
+
+#shopcar .main a{background: #ff6f84;display: block;    margin-top: 1%;
+    margin-left: 34%;
+    font-size: 80%;
+    height: 10%;
+    width: 28%;
+    text-align: center;
+    line-height: 2rem;
+    color: #fff;
+    border-radius: 3rem;}
+
+#shopcar .bottom{height: 15%;width: 100%;background: #f6f6f6;padding: 0.1px}
+#shopcar .bottom a{
+    display: block;
+}
+#shopcar .bottom a:first-child{
+    background-image: url("img/mall_icons.png");
+    background-size: 105px;
+    background-position: -101px -441px;
+    width: 25px;
+    height: 32px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#shopcar .bottom .p1{font-size: 1rem;display: block;margin-left: 3rem;
+    margin-top: -1.3rem;}
+#shopcar .bottom .p2{font-size: 1rem;display: block;margin-left:11rem;
+    margin-top: -2rem;}
+#shopcar .bottom .p3{font-size: .5rem;display: block;margin-left:11rem;    color: #735660;
+    margin-top: 0;}
+#shopcar .bottom a:last-child{color: #fff;background:#ff6f84 ;height: 2.5rem;
+    width: 5.4rem;
+    margin-left: 69%;
+    margin-top: -12%;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: .5rem;}

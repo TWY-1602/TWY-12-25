@@ -1,0 +1,29 @@
+<div id="search">
+    <div class="top">
+        <p><</p>
+        <input type="text">
+    </div>
+    <div class="main">
+        <div class="left">
+            <ul>
+                <li ng-repeat="obj in arrSearchList" ng-class="{main_left:$index==id}" ng-click="color()">
+                    <a href="" >
+                        <img src="{{obj.img}}" alt="">
+                        <p>{{obj.title}}</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="right" >
+            <div ng-repeat="obj in arr1" class="right1">
+                <p>{{obj.category_name}}</p>
+                <ul>
+                    <li ng-repeat="obj1 in obj.list">
+                        <img src="{{obj1.product_img}}" alt="">
+                        <p>{{obj1.product_name}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

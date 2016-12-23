@@ -1,0 +1,34 @@
+#search{height: 100%;width: 100%;position: fixed;z-index:100;font-size:100px;top: 0; }
+#search .top{height: 8%;width: 100%;background: #fff;border-bottom: 1px solid gainsboro}
+#search .top p{font-size: 36%;color: #735660;position: absolute;left: 3%;top: -1%;}
+#search .top input{  background-size: 5%;    background-position-x: 4%;
+    background-position-y: 40%;
+    background-image: url(img/xia.png);background-repeat: no-repeat;height:5%;width: 80%; position: absolute;left:12%;top: 1.3%;border: none;border: 1px solid gainsboro;border-radius: 3rem;}
+/*商品主体部分*/
+#search .main{height: 92%;width: 100%;}
+
+
+/*商品主体左边导航部分*/
+#search .main .left{height: 100%;width: 38%;background: #f6f6f6;overflow: auto;float: left}
+#search .main .left ul{width: 100%;height: 100%;}
+#search .main .left ul li{width: 100%;height: 10%;border-bottom: 1px solid #e3e3e3;position: relative}
+#search .main .left ul li img{position: absolute;height: 70%;    left: 10%;
+    top: 18%;}
+#search .main .left ul li a{color: #322228;}
+#search .main .left ul li p{position: absolute;font-size: 14%; left: 42%;
+    top: 31%;}
+#search .main .left .main_left a{color: #fc6496;}
+#search .main .left .main_left{background: #fff}
+/*商品主体右边商品展示部分*/
+#search .main .right{height: 100%;width: 62%;background: #fff;overflow: auto;}
+#search .main .right .right1{width: 100%;}
+#search .main .right .right1>p{font-size: 10%;color: #999094;       margin-left: 5%; }
+#search .main .right .right1 ul{
+    height:100%;width: 100%;}
+#search .main .right .right1 ul li{float: left;
+    position: relative;
+  width: 50%;    height:8rem;}
+#search .main .right .right1 ul li img{width:80%;left:7%;position: absolute;}
+#search .main .right .right1 ul li p{font-size:10%;    top: 71%; left: 23%;position: absolute;}
+#search .dis{height: 4.5rem;}
+

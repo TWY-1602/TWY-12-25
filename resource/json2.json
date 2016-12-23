@@ -1,0 +1,129 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "only": {
+            "name": "只看有货",
+            "value": 0
+        },
+        "attr": [
+            {
+                "name": "品牌",
+                "key": "brand",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    },
+                    {
+                        "id": "977",
+                        "text": "南极人"
+                    },
+                    {
+                        "id": "1069",
+                        "text": "大奇"
+                    },
+                    {
+                        "id": "1169",
+                        "text": "花笙糖"
+                    },
+                    {
+                        "id": "1170",
+                        "text": "MOSREM"
+                    },
+                    {
+                        "id": "1522",
+                        "text": "猪猪的故事"
+                    }
+                ]
+            },
+            {
+                "name": "国家",
+                "key": "country",
+                "list": [
+                    {
+                        "id": "0",
+                        "text": "全部"
+                    }
+                ]
+            }
+        ],
+        "cate": [
+            {
+                "cat_id": "",
+                "cut_name": "全部商品",
+                "cat_name": "全部商品",
+                "cat_img": "",
+                "child": [
+                    {
+                        "cat_id": "",
+                        "cut_name": "全部商品",
+                        "cat_name": "全部商品",
+                        "cat_img": ""
+                    }
+                ]
+            },
+            {
+                "cat_id": "512",
+                "cut_name": "家居日用",
+                "cat_name": "家居日用",
+                "cat_img": "http://s01.lmbang.com/M00/30/D6/DpgiA1XIRIyAPYTuAAAI_gItxnA759.png",
+                "child": [
+                    {
+                        "cat_id": "512",
+                        "cut_name": "全部家居日用",
+                        "cat_name": "全部家居日用",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "515",
+                        "cut_name": "儿童保护",
+                        "cat_name": "儿童保护",
+                        "cat_img": "http://s07.lmbang.com/M00/4B/81/DpgiA1TUnmOADcxoAABheKHv8kY436.png"
+                    }
+                ]
+            },
+            {
+                "cat_id": "569",
+                "cut_name": "婴儿服饰",
+                "cat_name": "婴儿服饰",
+                "cat_img": "http://s03.lmbang.com/M00/1D/C1/tzlM81XIQnKAKK5mAAAM9WSjlHE009.png",
+                "child": [
+                    {
+                        "cat_id": "569",
+                        "cut_name": "全部婴儿服饰",
+                        "cat_name": "全部婴儿服饰",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "572",
+                        "cut_name": "服饰配件",
+                        "cat_name": "服饰配件",
+                        "cat_img": "http://s01.lmbang.com/M00/1E/FA/tzlM81XJrTKAa5KdAAA7sTu9jWw778.jpg"
+                    }
+                ]
+            },
+            {
+                "cat_id": "617",
+                "cut_name": "幼儿寝具",
+                "cat_name": "幼儿寝具",
+                "cat_img": "http://s04.lmbang.com/M00/30/D4/DpgiA1XIQpyAD9jyAAAND3LbZiY165.png",
+                "child": [
+                    {
+                        "cat_id": "617",
+                        "cut_name": "全部幼儿寝具",
+                        "cat_name": "全部幼儿寝具",
+                        "cat_img": ""
+                    },
+                    {
+                        "cat_id": "619",
+                        "cut_name": "幼儿床品",
+                        "cat_name": "幼儿床品",
+                        "cat_img": "http://s06.lmbang.com/M00/4A/19/DpgiA1TTPPGAQW-rAABaSTeuiUk426.png"
+                    }
+                ]
+            }
+        ]
+    },
+    "timestamp": 1482323611
+}

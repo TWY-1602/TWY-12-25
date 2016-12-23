@@ -1,0 +1,60 @@
+<div id="hot">
+    <header>
+        <h1 class="title-img"><i></i></h1>
+        <div ui-sref=".search" class="searchpage"><a href=""></a></div>
+    </header>
+    <div class="banner">
+        <div class="slider">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" ng-repeat="obj in arrBanner">
+                        <img src="{{obj.banner}}" />
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <ul class="enter clearfix" >
+        <li ui-sref=".category"><a href=""><img src="http://s05.lmbang.com/M00/06/14/ecloD1hR-xCAL5XEAAAQRVSCvsU506.png" alt="">宝宝服饰</a></li>
+        <li ui-sref=".category"><a href=""><img src="http://s04.lmbang.com/M00/06/14/ecloD1hR-xqAIM4OAAAd2hFs7tA067.png" alt="">姨妈巾专区</a></li>
+        <li ui-sref=".category"><a href=""><img src="http://s02.lmbang.com/M00/0C/B5/ecloA1hR_TCAe5sGAAAT01LOgQk246.png" alt="">孕产专区</a></li>
+        <li><a href=""><img src="http://s01.lmbang.com/M00/0C/B5/ecloA1hR_TuAIXAbAAAVIFt41TQ304.png" alt="">保税区</a></li>
+        <li ui-sref=".category"><a href=""><img src="http://s08.lmbang.com/M00/25/FA/DpgiA1hR_UmAVvBnAAASo0mhDSE534.png" alt="">直邮专区</a></li>
+    </ul>
+    <div class="toutiao">
+        <div class="toutiao-icon"></div>
+        <div class="toutiao-content">羊* 在1分钟前购买了: 【保税直发】日本SANA/莎娜 豆乳美肌浓润滋养霜 面霜 50g</div>
+    </div>
+    <div class="merry">
+        <img src="http://s07.lmbang.com/M00/26/FE/DpgiA1hXROuAPY9bAABzOEos414849.jpg" alt="">
+        <img src="http://s03.lmbang.com/M00/07/18/ecloD1hXQuOAUkw5AAA-xNcUcaw661.jpg" alt="">
+    </div>
+    <div class="miaosha">
+        <div class="miaosha-header">
+            <h3>每日一秒&nbsp;01:00:36</h3>
+            <div><span>10:00</span><span>21:00</span></div>
+            <span></span>
+        </div>
+        <ul class="miaosha-content clearfix">
+            <li><a href=""><img src="http://s06.lmbang.com/M00/BA/0C/ecloA1crBi2ACIK6AADhve0DvyM008.jpg!c300x300x100.jpg" alt=""><div><span>￥9.9</span>1.5折</div></a></li>
+            <li><a href=""><img src="http://s03.lmbang.com/M00/FB/A6/ecloD1gkKfiAISv4AAR1dpXA2pY601.jpg!c300x300x100.jpg" alt=""><div><span>￥16.9</span>3.8折</div></a></li>
+            <li><a href=""><img src="http://s04.lmbang.com/M00/23/33/DpgiA1hGYw6ACgc6AALOaMOygJ4161.jpg!c300x300x100.jpg" alt=""><div><span>￥9.9</span>3.3折</div></a></li>
+        </ul>
+    </div>
+    <div class="adv">
+        <img src="{{obj.banner}}" alt="" ng-repeat="obj in arrAdv">
+    </div>
+    <div class="main-bottom">
+        <ul class="category-title clearfix">
+            <li ui-sref=".category1"><a href="">今日上新</a></li>
+            <li ui-sref=".category1"><a href="">还有机会</a></li>
+            <li ui-sref=".category1"><a href="">即将开售</a></li>
+        </ul>
+    </div>
+    <div data-ui-view=""></div>
+    <div class="dis"></div>
+</div>
+
+
+

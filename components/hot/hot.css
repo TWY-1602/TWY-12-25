@@ -1,0 +1,67 @@
+#hot{position: absolute;width:100%;background:rgb(246,246,246) ;overflow-y: auto;overflow-x: hidden;}
+#hot header{height: 3rem;width:100%;position: relative;background: #fff;}
+#hot header h1{width: 50%;height: 100%;font-size: 1rem;text-align: center;margin:0 auto;line-height: 3rem;}
+#hot header h1 i{display: inline-block;width:4.5rem;height:1.2rem;background: url("../../img/title.png") no-repeat;
+background-size:100% 100%; }
+#hot header div{height:1.2rem;width:1.2rem;position: absolute ;right:1.5rem;top:30%;}
+#hot header div  a{width:1.2rem;height:1.2rem;display: block;background: url("../../img/search.png")no-repeat;
+background-size: 100% 100%;}
+#hot .banner{height:10rem;width:100%;}
+#hot .banner img{height: 10rem;width:100%;display: block;}
+#hot .enter{width:100%;padding:1rem 0;background: #fff;border-bottom: 1px solid #e0e0e0; }
+#hot .enter li{width:20%;float: left;height: 3.5rem;}
+#hot .enter li a{display: block;height: 3.5rem;font-size: 0.8rem;text-align: center;  color: #735660;}
+#hot .enter li a img{display: block;width:2rem;height: 2rem;margin:0 auto;}
+#hot .toutiao{padding: 1rem;background: #fff;display: flex;justify-content: space-between}
+#hot .toutiao .toutiao-icon{width:2rem;height:1rem;background: url("../../img/toutiao.png") no-repeat;background-size:100%;100%; }
+#hot .toutiao .toutiao-content{font-size:0.5rem;color:#735660;height: 1rem;text-overflow: ellipsis;white-space: normal;overflow: hidden;
+    width:15rem;}
+#hot .merry{margin-top:0.5rem;height:4.5rem;display: flex;justify-content: space-between; }
+#hot .merry img{width:9.8rem;height:100%;}
+#hot .miaosha{margin-top:0.5rem;padding:1rem 1rem 1.3rem;background: #fff; height:10rem;}
+#hot .miaosha .miaosha-header{display: flex;justify-content: space-between;font-size:0.9rem;position: relative;}
+#hot .miaosha .miaosha-header>span{display: inline-block;position: absolute;border:0.35rem solid transparent;border-top-color:#fc6496;bottom:-0.56rem;right:4.6rem;}
+#hot .miaosha .miaosha-header h3{width:9rem;font-size:0.8rem;font-weight: 400;color: #322228; }
+#hot .miaosha .miaosha-header div> span{border-radius:0.6rem;text-align:center;color:#fff;background: #fc6496;display: inline-block;width:3rem;height:1.25rem;}
+#hot .miaosha .miaosha-header>div span:last-child{ margin-left: 0.4rem;border:1px solid #fc6496;background: #fff;color:#fc6496;}
+#hot .miaosha .miaosha-content{margin-top:1rem;}
+#hot .miaosha .miaosha-content li{float: left;width:5.6rem;height: 7rem;}
+#hot .miaosha .miaosha-content li:nth-child(2){margin:0 0.6rem;}
+#hot .miaosha .miaosha-content li a img{width:100%;height:5.6rem; }
+#hot .miaosha .miaosha-content li a div{margin-top:0.5rem;font-size:0.8rem;color:#735660;text-align: center;}
+#hot .miaosha .miaosha-content li a div span:first-child{margin-right:0.4rem;}
+#hot .adv img{display: block;margin-top:.6rem;width:100%; }
+#hot .main-bottom{width:100%;margin-top: 0.6rem; }
+#hot .main-bottom .category-title li{width:33.33%;float: left;text-align: center;background:#fff;}
+#hot .main-bottom .category-title li a{display:inline-block;width:4rem;height:2.8rem;line-height:2.8rem;font-size:0.9rem;color:#735660;border-bottom:2px solid #fff;  }
+#hot .main-bottom>div{width:100%}
+
+
+
+
+.dis{height:3.5rem; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

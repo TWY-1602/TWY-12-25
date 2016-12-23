@@ -1,0 +1,55 @@
+<div class="wrapper">
+    <header class="mall-header">
+        <div class="inside">
+            <div class="b-left">
+                <a href=""><span class="icons-px"></span></a>
+            </div>
+            <h1>{{arr.spec_name}}</h1>
+        </div>
+    </header>
+    <section class="container">
+        <div class="banner">
+            <img src="{{arr.banner}}" alt="">
+            <div class="banner-time">
+                仅剩
+                <span id="J-miaoshaTimer">
+                    <s class="u-time">14</s>天
+                    <s class="u-time">15</s>时
+                    <s class="u-time">25</s>分
+                    <s class="u-time">59</s>秒
+                </span>
+            </div>
+        </div>
+        <div class="goods-tools">
+            <div id="j-fixedTool">
+                <ul class="goods-tools-list">
+                    <li><a href="javascript:void(0)"><span class="icons-px"></span>有货</a></li>
+                    <li><a href="javascript:void(0)">人气</a></li>
+                    <li><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
+                    <li><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
+                    <li><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="spec-mian">
+            <ul class="goods-list">
+                <li ng-repeat="obj in arr02">
+                    <a class="goods-item-details" href="">
+                        <div class="goods-img"><img src="{{obj.goods_thumb}}" alt=""></div>
+                        <div class="goods-info">
+                            <h5>{{obj.goods_name}}</h5>
+                            <p class="goods-record">{{obj.sold_number}}</p>
+                            <p class="goods-prices">
+                                <span class="mall-discount">{{obj.discount_rate}}折</span>
+                                <span class="mall-price"><i>¥</i>{{obj.shop_price}}</span>
+                                <del class="mall-del"><i>¥</i>{{obj.market_price}}</del>
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+</div>

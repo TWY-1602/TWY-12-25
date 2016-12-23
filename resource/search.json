@@ -1,0 +1,92 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "title": "免税店",
+                "category_id":"101",
+                "img":"http://s02.lmbang.com/M00/95/F0/tzlM81Uw3CiAN0znAAALdVdnCYI401.png"
+            },
+            {
+                "title": "直邮百货",
+                "category_id":"102",
+                "img":"http://s03.lmbang.com/M00/99/C9/tzlM81U0d-GAZNioAAALq1UjUIE806.png"
+            },
+            {
+                "title": "纸尿裤",
+                "category_id":"103",
+                "img":"http://s07.lmbang.com/M00/2C/97/DpgiA1XDIvuABKy8AAAKoFuVzSI014.png"
+            },
+            {
+                "title": "奶粉",
+                "category_id":"104",
+                "img":"http://s05.lmbang.com/M00/2C/8A/DpgiA1XDGvSAXfRzAAAL9T-EE68038.png"
+            },
+            {
+               "title": "婴幼洗护",
+               "category_id":"105",
+                "img":"http://s06.lmbang.com/M00/2C/8F/DpgiA1XDHlSAVQTCAAANBAsa4A8737.png"
+            }
+            ,
+            {
+                "title": "辅食营养",
+                "category_id":"106",
+                "img":"http://s06.lmbang.com/M00/2C/8F/DpgiA1XDHlSAVQTCAAANBAsa4A8737.png"
+            },
+            {
+                "title": "喂养用品",
+                "category_id":"107",
+                "img":"http://s08.lmbang.com/M00/19/7A/tzlM81XDHSuAZ_KVAAAKl6149oo966.png"
+            },
+            {
+                "title": "女性专区",
+                "category_id":"108",
+                "img":"http://s03.lmbang.com/M00/19/79/tzlM81XDHFqAfyyUAAAH5YY_8oo405.png"
+            },
+            {
+                "title": "儿童玩具",
+                "category_id":"109",
+                "img":"http://s04.lmbang.com/M00/2C/76/DpgiA1XDDZaAVKAZAAAM58Ax9Vk245.png"
+            },
+            {
+                "title": "食品保健",
+                "category_id":"110",
+                "img":"http://s05.lmbang.com/M00/19/81/tzlM81XDIUiAerBLAAAJjf6Qa-k768.png"
+            },
+            {
+                "title": "家具日用",
+                "category_id":"111",
+                "img":"http://s08.lmbang.com/M00/2C/83/DpgiA1XDFc-AIMtdAAAI_gItxnA268.png"
+            },
+            {
+                "title": "童车汽座",
+                "category_id":"112",
+                "img":"http://s04.lmbang.com/M00/2C/8D/DpgiA1XDHO-ASq3EAAAKbpITAd4388.png"
+            },
+            {
+                "title": "婴儿服饰",
+                "category_id":"113",
+                "img":"http://s04.lmbang.com/M00/27/57/ecloD1XejfSAQy4GAAAM_cLykiM942.png"
+            },
+            {
+                "title": "童装童鞋",
+                "category_id":"114",
+                "img":"http://s02.lmbang.com/M00/27/57/ecloD1XejeSANZnaAAALt1bDHbo507.png"
+            },
+            {
+                "title": "幼儿寝具",
+                "category_id":"115",
+                "img":"http://s02.lmbang.com/M00/19/83/tzlM81XDIseALiF6AAAND3LbZiY019.png"
+            },
+            {
+                "title": "成长辅助",
+                "category_id":"116",
+                "img":"http://s01.lmbang.com/M00/2D/F7/ecloA1XejcyAC6yMAAAKigU3lMo390.png"
+            }
+        ],
+        "seckill": [],
+        "top": []
+    },
+    "timestamp": 1483243779
+}

@@ -1,0 +1,5 @@
+html,body{height:100%;width:100%;}
+#tab{background: #fff;height:3.5rem;width:100%;border-top:1px solid #e0e0e0;position:fixed;z-index:100;bottom:0;z-index:100; }
+#tab li{width:25%;float: left;}
+#tab li a{display: block;height:100%;padding-top:0.4rem;text-align:center;color:#735660;font-size:0.8rem;}
+#tab li a div{height:1.5rem;background: url(../img/hot.png) no-repeat;width:1.5rem;margin:0 auto;background-size: 1.5rem 1.5rem;}

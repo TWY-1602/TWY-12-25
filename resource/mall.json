@@ -1,0 +1,243 @@
+{
+    "ret": "0",
+    "msg": "操作成功",
+    "data": {
+        "list": [
+            {
+                "spec_name": "辣妈美妆",
+                "floor_num":"1F",
+                "list": [
+                	{
+                	"img":"http://s06.lmbang.com/M00/C8/4D/ecloD1dqAZWAQ_86AAFvvcFepl0234.png"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/D1/FC/ecloD1eInSOAZy56AAAl7SERu60260.jpg"
+                	},
+                	{
+                	"img":"http://s07.lmbang.com/M00/E4/20/ecloD1fGSECAHt0iAAARQRty3tQ239.png"
+                	},{
+                	"img":"http://s03.lmbang.com/M00/EB/47/DpgiA1dzh4mAF-sFAAAqB7B1ajA729.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/E8/30/DpgiA1dp_3aAYnbhAACBln-xoJg873.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/62/FE/DpgiA1YV5p2Acq6vAAAqiTpDXk8484.png"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/AE/DA/tzlM81VIc2yAFY1xAACs8dP7CWo467.jpg"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/D3/FE/DhFprFRy41WASZucAAAdj59bFhE464.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/C1/EF/DpgiA1VIdjKAXZmIAAC0hT3CQTY397.jpg"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/54/9C/DpgiA1X31TyAKlEfAAAnvrxwyaw889.jpg"
+                	},
+                	{
+                	"img":"http://s07.lmbang.com/M00/3B/6E/ecloA1X31aaAQtDRAAAaIZQyOLY459.jpg"
+                	},
+                	{
+                	"img":"http://s06.lmbang.com/M00/99/D1/eQ519FRS91mAJOkRAACNkNr0-4Y535.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/5A/F2/ecloD1ZFsb6ABo53AABBuIQzJoU145.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/44/B2/DpgiA1Xaix6ALZl8AABEmhZXe98801.jpg"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/FA/F1/eQ519FShALCAOkzkAAByqllDMmM358.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/F9/DD/DpgiA1efEzSAe5lBAAAeVX9mryg576.png"
+                	},
+                	{
+                	"img":"http://s07.lmbang.com/M00/03/A2/tzlM81WnUxOAQaAuAAAZDgv1vQU417.png"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/D5/8C/DpgiA1VcVkOAS4inAACW0XAuDZE660.jpg"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/17/8E/DpgiA1WodGmARva6AAA1aQSRvY4068.png"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/B4/74/DpgiA1bY_VeAWQZ4AAAO6ryVe1w802.jpg"
+                	},
+                	{
+                	"img":"http://s07.lmbang.com/M00/1A/A3/DpgiA1Wsui2AOsLQAABA_c8fnrI934.png"
+                	}
+                ]
+            },
+            {
+                "spec_name": "品质奶粉",
+                "floor_num":"2F",
+                "list": [
+                	{
+                	"img":"http://s05.lmbang.com/M00/4A/1B/DpgiA1XkH5GACxCKAAEJtMLpmbU209.jpg"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/C1/F2/DpgiA1VId8yAAHnyAAC2hvSgcss761.jpg"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/13/9D/tzlM81W8MxmAbxNoAABkYGCwheE677.jpg"
+                	}
+                ]
+            },
+            {
+                "spec_name": "洗护大咖",
+                "floor_num":"3F",
+                "list": [
+                	{
+                	"img":"http://s02.lmbang.com/M00/3A/C1/ecloA1X2ki2AfdpBAAA356Q11mQ075.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/5D/AB/DpgiA1YJFDaAawVuAACmqQArfBM612.jpg"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/30/C6/DpgiA1XIN7GAX54JAAuTJJ73514042.jpg"
+                	}
+                ]
+            },
+            {
+                "spec_name": "喂养大咖",
+                "floor_num":"4F",
+                "list": [
+                	{
+                	"img":"http://s06.lmbang.com/M00/31/40/ecloD1XxL1qAXTsUAAAleZZ8uSw391.png"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/63/C3/eQ519FQpMXSAV--6AAB-kCipuMg291.jpg"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/CC/CB/DpgiA1cW9hWAYk5nAAA-4qpxBJY348.jpg"
+                	}
+                ]
+            },
+            {
+                "spec_name": "营养辅食",
+                "floor_num":"5F",
+                "list": [
+                	{
+                	"img":"http://s04.lmbang.com/M00/DF/EC/eQ519FSMFH-ACnZpAACTh7_agHs498.jpg"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/F1/A0/DhFprFSMADmAXw1hAACeUTJMLcY392.jpg"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/AE/DF/DpgiA1U2CsOAfyKOAAC1GvfzLtQ242.jpg"
+                	}
+                ]
+            }
+            ,
+            {
+                "spec_name": "儿童玩具",
+                "floor_num":"6F",
+                "list": [
+                	{
+                	"img":"http://s06.lmbang.com/M00/C3/67/eQ519FR0MjuACksKAABTsN4HvDg714.png"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/22/76/tzlM81XNa_GAJF-EAAAZF1CIMUk080.png"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/D4/F7/ecloD1eR3qWAAYsSAAApUCOsNbc575.png"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/DB/98/ecloA1eR32OAafuUAAArOv4fVV4755.png"
+                	},
+                	{
+                	"img":"http://s06.lmbang.com/M00/F4/7A/DhFprFSOOkqAPnSJAACye5DgTFI604.jpg"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/ED/77/DhFprFSJCvaAEF3jAACxMgp6xOk386.jpg"
+                	},
+                	{
+                	"img":"http://s06.lmbang.com/M00/3A/E4/ecloD1YCdgCAcfUXAAAbfGdUD_E430.jpg"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/F4/DC/DpgiA1eR4C2AKTCsAAAcq8vUw7g404.png"
+                	},
+                	{
+                	"img":"http://s07.lmbang.com/M00/93/A1/ecloD1bWrp6AWeB7AAAYcTDnqXk648.png"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/33/62/DpgiA1XLBmWAK674AAANqLS5J6U390.jpg"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/90/04/ecloD1bNVcSARCd6AABkGU7cQNQ994.png"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/38/09/ecloA1XxXGqAAp11AAA-Z48k0q0324.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/20/4E/tzlM81XLBW-AJumTAAAe180iOOU538.jpg"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/31/94/ecloA1XlVgKAUwTHAAF0O-DECy0169.png"
+                	},
+                	{
+                	"img":"http://s06.lmbang.com/M00/33/62/DpgiA1XLBkSACMYhAAA9Sydwtgw616.jpg"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/93/A1/ecloD1bWr3GAYeVtAAAVAmEAQ9M533.png"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/2A/F4/ecloD1XlVieAJKwjAAFsY3TZpMk422.png"
+                	},
+                	{
+                	"img":"http://s01.lmbang.com/M00/E1/3D/ecloD1e6vwiAc7E7AAAUM-aKybY554.png"
+                	}
+                ]
+            },
+            {
+                "spec_name": "品牌服饰",
+                "floor_num":"7F",
+                "list": [
+                	{
+                	"img":"http://s03.lmbang.com/M00/DF/D0/eQ519FSMAH6AHgeBAAB5wXgd4yg062.jpg"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/D7/E2/DpgiA1Ve1ReAeR7dAABovEbBgO4981.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/25/F2/DpgiA1W7GUSANMbmAADyIw5CwBk364.jpg"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/5C/17/ecloA1Y6-CCAWlNIAABDvDZ3KB4893.jpg"
+                	},
+                	{
+                	"img":"http://s08.lmbang.com/M00/5C/9E/ecloD1ZJqieANXy-AAASHxEqbGA620.png"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/D7/8F/ecloA1eF6NWANru1AABiwV1XPYY282.jpg"
+                	},
+                	{
+                	"img":"http://s02.lmbang.com/M00/26/C3/ecloD1XdYjOAV5IYAAA9NCM3LIw894.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/A0/45/DpgiA1aYmIeABa6wAAAzOHZ9Uj8849.png"
+                	},
+                	{
+                	"img":"http://s03.lmbang.com/M00/E3/1A/ecloA1eoNPOAAQFVAAAfLMG7J4c299.png"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/CE/E9/ecloA1dp-Q6AX-4EAAJ7lwA1SEw725.jpg"
+                	},
+                	{
+                	"img":"http://s05.lmbang.com/M00/7E/72/DpgiA1ZNkjyAfVf1AAAUWt740bg439.png"
+                	},
+                	{
+                	"img":"http://s04.lmbang.com/M00/EB/18/ecloD1fiUAeAL3yvAAAy2cVfh64949.png"
+                	}
+                ]
+            }
+           
+        ],
+        "seckill": [],
+        "top": []
+    },
+    "timestamp": 1482323779
+}
