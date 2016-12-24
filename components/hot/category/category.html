@@ -1,7 +1,7 @@
 <div class="wrapper">
     <header class="mall-header">
         <div class="inside">
-            <div class="b-left">
+            <div class="b-left" ng-click="back()">
                 <a href=""><span class="icons-px"></span></a>
             </div>
             <h1>{{arr.spec_name}}</h1>
@@ -52,9 +52,13 @@
     </section>
 </div>
 <div class="menu-mask"></div>
-<div class="menu-mask">
+<div class="menu-cont">
     <section class="category-main">
-
+        <header class="category-tab-hd">
+            <ul>
+                <li ng-repeat="obj in arr03"><a href=""><i></i>{{obj.name}}</a></li>
+            </ul>
+        </header>
     </section>
 </div>
 
