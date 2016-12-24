@@ -1,4 +1,4 @@
-#shopcar{width: 100%;height: 88%;position: fixed;z-index: 4;}
+#shopcar{width: 100%;height:100%;position: fixed;z-index: 135;}
 #shopcar .top{height: 10%;width: 100%;border-bottom: 1px solid #d2d2d2;}
 #shopcar .top p{font-size: 108%;text-align: center;line-height: 2.5rem;}
 #shopcar .top a{    color: #735660;font-size: 86%;margin-left: 85%;margin-top: -9%;  display: block;}
@@ -44,6 +44,113 @@
 #shopcar .bottom .p3{font-size: .5rem;display: block;margin-left:11rem;    color: #735660;
     margin-top: 0;}
 #shopcar .bottom a:last-child{color: #fff;background:#ff6f84 ;height: 2.5rem;
+    width: 5.4rem;
+    margin-left: 69%;
+    margin-top: -12%;
+    text-align: center;
+    line-height: 2.5rem;
+    border-radius: .5rem;}
+
+
+/*有商品的购物车页面*/
+#buycar{height: 100%;width: 100%;position: fixed;top: 0;z-index: 220;display: none}
+#buycar .top{height: 9%;width: 100%;border-bottom: 1px solid #d2d2d2;background: #fff ;}
+#buycar .top p{font-size: 108%;text-align: center;line-height: 2.5rem;}
+#buycar .top a{    color: #735660;font-size: 86%;margin-left: 85%;margin-top: -9%;  display: block;}
+
+
+#buycar .main{width: 100%;height: 76%;background: #f6f6f6;border-bottom: 1px solid #d2d2d2;padding: 0.1px}
+#buycar .main ul{width: 100%}
+#buycar .main ul li{width: 100%;background: #fff;position: relative;height: 6rem}
+#buycar .main ul li .p1{font-size: 10%;color: #353942;    left: 5%;
+    top: 5%;
+    position: absolute;}
+#buycar .main ul li a{
+    background-image: url("img/mall_icons.png");
+    background-size: 123px;
+    background-position: -148px -526px;
+    width: 26px;
+    height: 28px;
+    display: block;
+    top: 51%;
+    left: 5%;
+    position: absolute;
+}
+#buycar .main ul li img{
+    position: absolute;
+    height: 54%;
+    width: 17%;
+    border: 1px solid #e3e3e3;
+    left: 18%;
+    text-align: center;
+    top: 31%;
+}
+#buycar .main ul li .p2{
+    font-size: 10%;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    width: 40%;
+    font-family: "简体";
+    color: #353942;
+}
+#buycar .main ul li .p3{
+    font-size: 10%;
+    position: absolute;
+    left: 36%;
+    color: #b7babf;
+    top: 71%;
+}
+#buycar .main ul li .p4{
+    font-size: 10%;
+    position: absolute;
+    left: 60%;
+    color: #b7babf;
+    top: 71%;
+}
+#buycar .main ul li .p5{
+    position: absolute;
+    font-size: 10%;
+    left: 81%;
+    top: 28%;
+    font-weight: bold;
+}
+/*#buycar .main ul li .s1{width: 12%}*/
+#buycar .main ul li .s1 select{
+    position: absolute;
+    left: 82%;
+    top: 55%;
+    border: none;
+    border: 1px solid rgb(169, 169, 169);
+    height: 30%;
+    width: 12%;
+    border-radius: .3rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+#buycar .bottom{height: 15%;width: 100%;background: #f6f6f6;padding: 0.1px}
+#buycar .bottom a{
+    display: block;
+}
+#buycar .bottom a:first-child{
+    background-image: url("img/mall_icons.png");
+    background-size: 105px;
+    background-position: -101px -441px;
+    width: 25px;
+    height: 32px;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#buycar .bottom .p1{font-size: 1rem;display: block;margin-left: 3rem;
+    margin-top: -1.3rem;}
+#buycar .bottom .p2{font-size: 1rem;display: block;margin-left:11rem;
+    margin-top: -2rem;}
+#buycar .bottom .p3{font-size: .5rem;display: block;margin-left:11rem;    color: #735660;
+    margin-top: 0;}
+#buycar .bottom a:last-child{color: #fff;background:#ff6f84 ;height: 2.5rem;
     width: 5.4rem;
     margin-left: 69%;
     margin-top: -12%;
