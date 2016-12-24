@@ -2,6 +2,9 @@
  * Created by YZTC on 2016/12/22.
  */
 angular.module('hotModule',[])
+    .config(function ($stateProvider, $urlRouterProvider) {
+        $urlRouterProvider.otherwise('/hot/category1');
+    })
     .service('hotService',['$http',function($http){
         return{
             getA:function () {
