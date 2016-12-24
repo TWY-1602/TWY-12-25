@@ -19,7 +19,9 @@ angular.module('categoryModule',[])
             $scope.arr = res.data.special;
             $scope.arr02 = res.data.goods;
 
-
+            $scope.changeColor=function(num){
+                $scope.id=num;
+            }
         });
         // dataService.ZhuB().success(function(res){
         //

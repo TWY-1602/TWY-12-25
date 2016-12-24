@@ -23,11 +23,11 @@
         <div class="goods-tools">
             <div id="j-fixedTool">
                 <ul class="goods-tools-list">
-                    <li><a href="javascript:void(0)"><span class="icons-px"></span>有货</a></li>
-                    <li><a href="javascript:void(0)">人气</a></li>
-                    <li><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
-                    <li><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
-                    <li><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
+                    <li ng-class="{changeli1:1==id}" ng-click="changeColor(1)"><a href="javascript:void(0)"><span class="icons-px" ></span>有货</a></li>
+                    <li ng-class="{changeli2:2==id}" ng-click="changeColor(2)"><a href="javascript:void(0)">人气</a></li>
+                    <li ng-class="{changeli3:3==id}" ng-click="changeColor(3)"><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
+                    <li ng-class="{changeli4:4==id}" ng-click="changeColor(4)"><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
+                    <li ng-class="{changeli5:5==id}" ng-click="changeColor(5)"><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
                 </ul>
             </div>
         </div>
@@ -38,7 +38,7 @@
                         <div class="goods-img"><img src="{{obj.goods_thumb}}" alt=""></div>
                         <div class="goods-info">
                             <h5>{{obj.goods_name}}</h5>
-                            <p class="goods-record">{{obj.sold_number}}</p>
+                            <p class="goods-record">已售{{obj.sold_number}}件</p>
                             <p class="goods-prices">
                                 <span class="mall-discount">{{obj.discount_rate}}折</span>
                                 <span class="mall-price"><i>¥</i>{{obj.shop_price}}</span>
@@ -50,6 +50,11 @@
             </ul>
         </div>
     </section>
-
-
 </div>
+<div class="menu-mask"></div>
+<div class="menu-mask">
+    <section class="category-main">
+
+    </section>
+</div>
+
