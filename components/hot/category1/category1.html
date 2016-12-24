@@ -1,5 +1,5 @@
 <div class="category">
-    <ul class="product-list" ng-hide="true">
+    <ul class="product-list" ng-hide="false">
         <li ng-repeat="obj in arrCategory1" class="clearfix">
           <a href="" class="img">
               <img src="{{obj.banner}}" alt="">
@@ -11,7 +11,7 @@
             </div>
         </li>
     </ul>
-    <ul class="product-list-later">
+    <ul class="product-list-later" ng-hide="true">
         <li ng-repeat="obj in arrCategory1" class="clearfix">
             <a href="" class="img">
                 <img src="{{obj.banner}}" alt="">
@@ -23,7 +23,7 @@
             </div>
         </li>
     </ul>
-    <div class="footer" ng-hide="true">
+    <div class="footer" ng-hide="false">
         <h3>今日爆款</h3>
         <ul class="hot-list">
             <li ng-repeat="obj in arrCategory2">

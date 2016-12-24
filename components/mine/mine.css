@@ -1,0 +1,64 @@
+#mine{position: absolute;width:100%;height: 100%;background:rgb(246,246,246) ;}
+#mine header{width:100%;height:12rem;background: url("../../img/my_bg.jpg") no-repeat;background-size:100% 100%; }
+#mine header .register{width:100%;height:3rem;}
+#mine header .register a{padding-left:1rem;display: block;padding-top:1.5rem;background: url("../../img/register.png") no-repeat 1rem 0.3rem;background-size: 1.4rem 1.4rem;font-size: 0.7rem;color:#fff; }
+#mine header>a{display: block;height: 8rem;}
+#mine header>a .photo{height:4.2rem;width:4.2rem;margin:0 auto;border-radius: 50%;background: url("../../img/photo.png") no-repeat;background-size: 100% 100%;}
+#mine header>a .name{margin-top:0.4rem;font-size: 0.8rem;color:#fff;text-align: center;}
+#mine header>a .name span{background: url(http://s03.lmbang.com/M00/68/3F/DpgiA1YgbgSAYtzKAAAIjX0FXu8859.png) right top no-repeat;margin-left:0.25rem;
+    display: inline-block;width:0.65rem;height:0.8rem;background-size:100% 100%;vertical-align: middle;}
+#mine header>a .ladou{margin-top:0.7rem;font-size: 0.8rem;color:#fff;text-align: center;}
+#mine header>a .ladou span{background: url(../../img/mall_icons2-t.png) -2.8rem -2.75rem no-repeat;margin-left:0.25rem;
+    display: inline-block;width:0.65rem;height:0.8rem;background-size:8.44rem;vertical-align: middle;}
+#mine .container{width:100%;}
+#mine .container .order .order-all{height:2.75rem;padding-left:1rem;background: #fff;}
+#mine .container .order .order-all a{display: block;height:100%;line-height: 2.75rem;font-size:0.85rem;position: relative;border-bottom:1px solid #e0e0e0; }
+#mine .container .order .order-all a span {display: inline-block;color:#322228;}
+#mine .container .order .order-all a span:nth-child(1){background:url(../../img/mall_icons2-t.png) no-repeat 0 -1.56rem;background-size:8.44rem;width:0.85rem;margin-right:0.6rem;
+    height:0.85rem;  }
+#mine .container .order .order-all a span:nth-child(3){float: right;margin-right: 2.5rem;color:#c8c6c7}
+#mine .container .order .order-all a i{background:url("../../img/right.png"); width:1rem;height:0.75rem;position: absolute;background-size: 100% 100%;
+right:0;top:35%;display: inline-block;margin-right:1rem; }
+#mine .container .order-other{padding: 1rem 0;background: #fff;}
+#mine .container .order-other li{width:20%;float: left;}
+#mine .container .order-other li a{text-align: center;font-size: 0.8rem;color: #735660;display: block;width:100%;height: 100%;padding-top: 1.6rem;background: url(../../img/pay.png) no-repeat 1.2rem top;background-size:1.5rem 1.5rem; }
+#mine .container .order-other li:nth-child(2) a{background-image: url(../../img/send.png)}
+#mine .container .order-other li:nth-child(3) a{background-image: url(../../img/recive.png)}
+#mine .container .order-other li:nth-child(4) a{background-image: url(../../img/comment.png)}
+#mine .container .order-other li:nth-child(5) a{background-image: url(../../img/after.png)}
+#mine .container .footer{  margin-top: 0.6rem;background:rgb(246,246,246) ; }
+#mine .container .footer li{height:2.75rem;padding-left:1rem;background: #fff;}
+#mine .container .footer li a{display: block;height:100%;line-height: 2.75rem;font-size:0.85rem;position: relative;border-bottom:1px solid #e0e0e0; }
+#mine .container .footer li a span {display: inline-block;color:#322228;}
+#mine .container .footer li a span:nth-child(1){background:url(../../img/mall_icons2-t.png) no-repeat -1rem -1.56rem;background-size:8.44rem;width:0.85rem;margin-right:0.6rem;vertical-align: middle;
+    height:0.85rem;  }
+#mine .container .footer li a i{background:url("../../img/right.png"); width:1rem;height:0.75rem;position: absolute;background-size: 100% 100%;  right:0;top:35%;display: inline-block;margin-right:1rem; }
+#mine .container .footer li .not{border:none;}
+#mine .container .footer li:nth-child(2),#mine .container .footer li:nth-child(5){margin-bottom: 1rem;}
+
+#mine .container .footer li:nth-child(2) a span:nth-child(1){  background-position: -2rem -1.56rem; }
+#mine .container .footer li:nth-child(3) a span:nth-child(1){background-position: -2.97rem -1.56rem; }
+#mine .container .footer li:nth-child(4) a span:nth-child(1){background-position: -4rem -1.56rem ;}
+#mine .container .footer li:nth-child(5) a span:nth-child(1){background-position: -5rem -1.56rem ; }
+#mine .container .footer li:nth-child(6) a span:nth-child(1){background-position:-6.1rem -1.56rem ; }
+#mine .container .footer li:nth-child(7) a span:nth-child(1){background-position:-7.2rem -1.56rem ; }
+
+
+
+
+
+
+
+#mine .dis{height: 3.5rem;}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,13 +9,30 @@ var myApp = angular.module("myApp", ['ui.router','angularCSS','hotModule','shopC
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.when("", "/hot");
+    $urlRouterProvider.otherwise('/hot/category1');
     $stateProvider
         .state("hot", {
             url: "/hot",
             templateUrl: "components/hot/hot.html",
             controller:"HotController",
             css:["components/hot/hot.css","components/hot/swiper-3.3.1.min.css"]
+            // views:{
+            //     "":{
+            //
+            //     },
+            //     "search":{
+            //         url:"/search",
+            //         css:"components/hot/search/search.css",
+            //         templateUrl: "components/hot/search/search.html",
+            //         controller:"SearchController"
+            //     },
+            //     "category1":{
+            //         url:"/category1",
+            //         css:"components/hot/category1/category1.css",
+            //         templateUrl: "components/hot/category1/category1.html",
+            //         controller:"Category1Controller"
+            //     }
+            // }
         })
         .state("mall", {
             url:"/mall",
@@ -53,6 +70,12 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: "components/hot/search/search.html",
             controller:"SearchController"
 
+        })
+        .state("mall.search", {
+            url:"/search",
+            css:"components/hot/search/search.css",
+            templateUrl: "components/hot/search/search.html",
+            controller:"SearchController"
         })
         .state("hot.search.right", {
             url:"/right",

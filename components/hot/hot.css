@@ -4,8 +4,7 @@
 #hot header h1 i{display: inline-block;width:4.5rem;height:1.2rem;background: url("../../img/title.png") no-repeat;
 background-size:100% 100%; }
 #hot header div{height:1.2rem;width:1.2rem;position: absolute ;right:1.5rem;top:30%;}
-#hot header div  a{width:1.2rem;height:1.2rem;display: block;background: url("../../img/search.png")no-repeat;
-background-size: 100% 100%;}
+#hot header div  a{width:1.2rem;height:1.2rem;display: block;background: url("../../img/search.png")no-repeat;background-size: 100% 100%;}
 #hot .banner{height:10rem;width:100%;}
 #hot .banner img{height: 10rem;width:100%;display: block;}
 #hot .enter{width:100%;padding:1rem 0;background: #fff;border-bottom: 1px solid #e0e0e0; }
@@ -35,10 +34,6 @@ background-size: 100% 100%;}
 #hot .main-bottom .category-title li{width:33.33%;float: left;text-align: center;background:#fff;}
 #hot .main-bottom .category-title li a{display:inline-block;width:4rem;height:2.8rem;line-height:2.8rem;font-size:0.9rem;color:#735660;border-bottom:2px solid #fff;  }
 #hot .main-bottom>div{width:100%}
-
-
-
-
 .dis{height:3.5rem; }
 
 
