@@ -9,30 +9,13 @@ var myApp = angular.module("myApp", ['ui.router','angularCSS','hotModule','shopC
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/hot/category1');
+    $urlRouterProvider.otherwise('/hot/category1/1/');
     $stateProvider
         .state("hot", {
             url: "/hot",
             templateUrl: "components/hot/hot.html",
             controller:"HotController",
             css:["components/hot/hot.css","components/hot/swiper-3.3.1.min.css"]
-            // views:{
-            //     "":{
-            //
-            //     },
-            //     "search":{
-            //         url:"/search",
-            //         css:"components/hot/search/search.css",
-            //         templateUrl: "components/hot/search/search.html",
-            //         controller:"SearchController"
-            //     },
-            //     "category1":{
-            //         url:"/category1",
-            //         css:"components/hot/category1/category1.css",
-            //         templateUrl: "components/hot/category1/category1.html",
-            //         controller:"Category1Controller"
-            //     }
-            // }
         })
         .state("mall", {
             url:"/mall",
@@ -53,13 +36,13 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             controller:"MineController"
         })
         .state("hot.category", {
-            url:"/category",
+            url:"/category/:num/",
             templateUrl: "components/hot/category/category.html",
             controller:"CategoryController",
             css:"components/hot/category/category.css"
         })
         .state("hot.category1", {
-            url:"/category1",
+            url:"/category1/:id/",
             templateUrl: "components/hot/category1/category1.html",
             controller:"Category1Controller",
             css:["components/hot/category1/category1.css","components/hot/hot.css","components/hot/swiper-3.3.1.min.css"]

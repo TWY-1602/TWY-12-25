@@ -1,6 +1,6 @@
 <div class="category">
-    <ul class="product-list" ng-hide="false">
-        <li ng-repeat="obj in arrCategory1" class="clearfix">
+    <ul class="product-list" ng-if="sendId==1">
+        <li ng-repeat="obj in arrCategory" class="clearfix">
           <a href="" class="img">
               <img src="{{obj.banner}}" alt="">
               <div class="discount"><span>{{obj.discount}}</span>折起</div>
@@ -11,22 +11,34 @@
             </div>
         </li>
     </ul>
-    <ul class="product-list-later" ng-hide="true">
-        <li ng-repeat="obj in arrCategory1" class="clearfix">
+    <ul class="product-list" ng-if="sendId==2">
+        <li ng-repeat="obj in arrCategory" class="clearfix">
             <a href="" class="img">
                 <img src="{{obj.banner}}" alt="">
+                <div class="discount"><span>{{obj.discount}}</span>折起</div>
             </a>
-            <div class="mask"><div></div><span>开卖提醒</span></div>
             <div class="infor clearfix">
                 <p>{{obj.spec_name}}</p>
                 <div><p>已售<span>{{obj.sold_total_nums}}</span>件</p><span>{{obj.notice}}</span></div>
             </div>
         </li>
     </ul>
-    <div class="footer" ng-hide="false">
+    <ul class="product-list-later"  ng-if="sendId==3">
+        <li ng-repeat="obj in arrCategory" class="clearfix">
+            <a href="" class="img">
+                <img src="{{obj.banner}}" alt="">
+            </a>
+            <div class="mask"><div></div><span>开卖提醒</span></div>
+            <div class="infor clearfix">
+                <p>{{obj.spec_name}}</p>
+                <div><span>{{obj.notice}}</span></div>
+            </div>
+        </li>
+    </ul>
+    <div class="footer" ng-if="sendId==1" >
         <h3>今日爆款</h3>
         <ul class="hot-list">
-            <li ng-repeat="obj in arrCategory2">
+            <li ng-repeat="obj in arrCategory1">
                 <a href="">
                     <div class="hot-img"><img src="{{obj.goods_thumb}}" alt=""></div>
                     <div class="hot-infor">

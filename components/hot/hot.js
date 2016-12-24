@@ -18,7 +18,7 @@ angular.module('hotModule',[])
             }
         }
     }])
-    .controller('HotController',['$scope','$timeout','hotService',function($scope,$timeout,hotService){
+    .controller('HotController',['$scope','$timeout','hotService','$state',function($scope,$timeout,hotService,$state){
         hotService.getA().success(function (res) {
             $scope.arrBanner=[];
             $scope.arrAdv=[];
@@ -45,7 +45,17 @@ angular.module('hotModule',[])
                     autoplayDisableOnInteraction:false,
                     pagination: '.swiper-pagination'
                 });
-            },50)
+            },50);
+            $scope.showNum =1;
+            $scope.changeContent=function (id) {
+                $state.go('hot.category1',{ id : id});
+                $scope.showNum=id;
+            }
+            //改变上面的入口
+            $scope.changeEnter=function (num) {
+                $state.go('hot.category',{ num : num});
+                console.log(num)
+            }
 
         })
 
