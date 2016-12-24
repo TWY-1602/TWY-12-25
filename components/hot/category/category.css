@@ -1,4 +1,4 @@
-.wrapper{width:100%;height:100%;position:fixed;top:0;right:0;z-index:999;background:white;font-size:14px;overflow-y: auto;overflow-x:hidden; }
+.wrapper{width:100%;height:100%;position:fixed;top:0;right:0;z-index:101;background:white;font-size:14px;overflow-y: auto;overflow-x:hidden; }
 .wrapper .mall-header{width:100%;height:45px;position: relative;}
 .wrapper .mall-header .inside{height:45px;line-height:45px;box-sizing: border-box;font-size:18px;overflow:hidden;height:100%;}
 .wrapper .mall-header .b-left{float:left;height:100%;}
@@ -37,6 +37,7 @@
 .wrapper .spec-mian .goods-list li .goods-item-details .goods-info .goods-prices .mall-price{color: #735660;font-size:12px;margin-right: 4.5px;font-weight: 400; }
 .wrapper .spec-mian .goods-list li .goods-item-details .goods-info .goods-prices .mall-del{color:#735660;font-size:12px;  }
 
+.menu-mask{position: fixed;z-index:102;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5);}
 
 
 
