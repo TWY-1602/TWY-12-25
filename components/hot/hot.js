@@ -18,7 +18,7 @@ angular.module('hotModule',[])
             }
         }
     }])
-    .controller('HotController',['$scope','$timeout','hotService','$state',function($scope,$timeout,hotService,$state){
+    .controller('HotController',['$scope','$timeout','hotService','$state','$window',function($scope,$timeout,hotService,$state,$window){
         hotService.getA().success(function (res) {
             $scope.arrBanner=[];
             $scope.arrAdv=[];
@@ -56,6 +56,13 @@ angular.module('hotModule',[])
                 $state.go('hot.category',{ num : num});
                 console.log(num)
             }
+
+            angular.element($window).bind("scroll", function(e) {
+                // console.log(e)
+                // // console.log(e.pageYOffset)
+                // // $scope.visible = false;
+            })
+
 
         })
 

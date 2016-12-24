@@ -19,8 +19,8 @@ angular.module('category1Module',[])
         }
     }])
     .controller('Category1Controller',['categoryService','$scope','$timeout','$stateParams',function(categoryService,$scope,$timeout,$stateParams){
-        console.log($stateParams.id)
-        $scope.sendId=$stateParams.id
+        // console.log($stateParams.id)
+        $scope.sendId=$stateParams.id;
         if($stateParams.id==1){
             categoryService.getCategory1().success(function (res) {
                 $scope.arrCategory =res.data.list;
@@ -37,6 +37,9 @@ angular.module('category1Module',[])
                 $scope.arrCategory =res.data.list;
             })
         }
+
+
+
 
 
 
