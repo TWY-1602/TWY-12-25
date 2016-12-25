@@ -1,4 +1,4 @@
-<div id="hot"  >
+<div id="hot" data-ui-view="" >
     <header>
         <h1 class="title-img"><i></i></h1>
         <div ui-sref=".search" class="searchpage"><a href=""></a></div>
@@ -47,12 +47,78 @@
     </div>
     <div class="main-bottom">
         <ul class="category-title clearfix">
-            <li ui-sref=".category1" ng-click="changeContent(1)" ng-class="{show:1==showNum}"><a href=""  >今日上新</a></li>
-            <li ui-sref=".category1" ng-click="changeContent(2)" ng-class="{show:2==showNum}"><a href="" >还有机会</a></li>
-           <li ui-sref=".category1" ng-click="changeContent(3)" ng-class="{show:3==showNum}"><a href="" >即将开售</a></li>
+            <li  ng-click="changeContent(1)" ng-class="{show:1==showNum}"><a href=""  >今日上新</a></li>
+            <li  ng-click="changeContent(2)" ng-class="{show:2==showNum}"><a href="" >还有机会</a></li>
+           <li  ng-click="changeContent(3)" ng-class="{show:3==showNum}"><a href="" >即将开售</a></li>
         </ul>
     </div>
-    <div ui-view=""></div>
+    <!--<div ui-view=""></div>-->
+
+    <div class="category">
+        <ul class="product-list" ng-if="showNum==1">
+            <li ng-repeat="obj in arrCategory" class="clearfix">
+                <a href="" class="img">
+                    <img src="{{obj.banner}}" alt="">
+                    <div class="discount"><span>{{obj.discount}}</span>折起</div>
+                </a>
+                <div class="infor clearfix">
+                    <p>{{obj.spec_name}}</p>
+                    <div><p>已售<span>{{obj.sold_total_nums}}</span>件</p><span>{{obj.notice}}</span></div>
+                </div>
+            </li>
+        </ul>
+        <ul class="product-list" ng-if="showNum==2">
+            <li ng-repeat="obj in arrCategory" class="clearfix">
+                <a href="" class="img">
+                    <img src="{{obj.banner}}" alt="">
+                    <div class="discount"><span>{{obj.discount}}</span>折起</div>
+                </a>
+                <div class="infor clearfix">
+                    <p>{{obj.spec_name}}</p>
+                    <div><p>已售<span>{{obj.sold_total_nums}}</span>件</p><span>{{obj.notice}}</span></div>
+                </div>
+            </li>
+        </ul>
+        <ul class="product-list-later"  ng-if="showNum==3">
+            <li ng-repeat="obj in arrCategory" class="clearfix">
+                <a href="" class="img">
+                    <img src="{{obj.banner}}" alt="">
+                </a>
+                <div class="mask"><div></div><span>开卖提醒</span></div>
+                <div class="infor clearfix">
+                    <p>{{obj.spec_name}}</p>
+                    <div><span>{{obj.notice}}</span></div>
+                </div>
+            </li>
+        </ul>
+        <div class="footer" ng-if="showNum==1" >
+            <h3>今日爆款</h3>
+            <ul class="hot-list">
+                <li ng-repeat="obj in arrCategory1">
+                    <a href="">
+                        <div class="hot-img"><img src="{{obj.goods_thumb}}" alt=""></div>
+                        <div class="hot-infor">
+                            <p>{{obj.goods_name}}</p>
+                            <div>
+                                <p>已售{{obj.sold_number}}{{obj.goods_unit}}</p>
+                                <p>￥{{obj.shop_price}}&nbsp;<span>￥{{obj.market_price}}</span></p>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
     <div class="dis"></div>
 </div>
 

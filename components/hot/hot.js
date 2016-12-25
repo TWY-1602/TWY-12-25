@@ -15,6 +15,18 @@ angular.module('hotModule',[])
             },
             getC:function () {
                 return $http.get('resource/main3.json')
+            },
+            getCategory1:function () {
+                return $http.get('resource/new.json')
+            },
+            getCategory2:function () {
+                return $http.get('resource/new6.json')
+            },
+            getCategory3:function () {
+                return $http.get('resource/start-sale.json')
+            },
+            getCategory4:function () {
+                return $http.get('resource/new5.json')
             }
         }
     }])
@@ -47,9 +59,34 @@ angular.module('hotModule',[])
                 });
             },50);
             $scope.showNum =1;
+            hotService.getCategory1().success(function (res) {
+                $scope.arrCategory =res.data.list;
+            });
+            hotService.getCategory2().success(function (res) {
+                $scope.arrCategory1 =res.data;
+            });
             $scope.changeContent=function (id) {
-                $state.go('hot.category1',{ id : id});
+                // $state.go('hot.category1',{ id : id});
                 $scope.showNum=id;
+
+                if( $scope.showNum==1){
+                    hotService.getCategory1().success(function (res) {
+                        $scope.arrCategory =res.data.list;
+                    });
+                    hotService.getCategory2().success(function (res) {
+                        $scope.arrCategory1 =res.data;
+                    });
+                }else if( $scope.showNum==2){
+                    hotService.getCategory4().success(function (res) {
+                        $scope.arrCategory =res.data.list;
+                    });
+                }else if( $scope.showNum==3){
+                    hotService.getCategory3().success(function (res) {
+                        $scope.arrCategory =res.data.list;
+                    })
+                }
+
+
             }
             //改变上面的入口
             $scope.changeEnter=function (num) {
