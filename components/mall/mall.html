@@ -6,7 +6,7 @@
     <div class="floors clearfix" ng-repeat="obj in arrMall">
         <h3>{{obj.floor_num}}&nbsp;{{obj.spec_name}}</h3>
         <ul class="logo-list">
-            <li ng-repeat="obj1 in obj.list"><a href=""><img src="{{obj1.img}}" alt=""></a></li>
+            <li ng-repeat="obj1 in obj.list"><a href=""><img lazy-src="{{obj1.img}}" alt=""></a></li>
         </ul>
     </div>
     <div class="dis"></div>

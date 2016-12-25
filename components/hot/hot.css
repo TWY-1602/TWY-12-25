@@ -12,9 +12,8 @@ background-size:100% 100%; }
 #hot .enter li a{display: block;height: 3.5rem;font-size: 0.8rem;text-align: center;  color: #735660;}
 #hot .enter li a img{display: block;width:2rem;height: 2rem;margin:0 auto;}
 #hot .toutiao{padding: 1rem;background: #fff;display: flex;justify-content: space-between}
-#hot .toutiao .toutiao-icon{width:2rem;height:1rem;background: url("../../img/toutiao.png") no-repeat;background-size:100%;100%; }
-#hot .toutiao .toutiao-content{font-size:0.5rem;color:#735660;height: 1rem;text-overflow: ellipsis;white-space: normal;overflow: hidden;
-    width:15rem;}
+#hot .toutiao .toutiao-icon{width:2rem;height:1rem;background: url("../../img/toutiao.png") no-repeat;background-size:100% 100%; }
+#hot .toutiao .toutiao-content{font-size:0.5rem;color:#735660;height: 1rem;text-overflow: ellipsis;white-space: normal;overflow: hidden;  width:15rem;}
 #hot .merry{margin-top:0.5rem;height:4.5rem;display: flex;justify-content: space-between; }
 #hot .merry img{width:9.8rem;height:100%;}
 #hot .miaosha{margin-top:0.5rem;padding:1rem 1rem 1.3rem;background: #fff; height:10rem;}
@@ -76,10 +75,10 @@ background-size:100% 100%; }
 /*.category .product-list-later li .infor>div>p span{color:#fc6496;}*/
 .category .product-list-later li .mask{position: absolute;left:0;top:0rem;width:100%;height:10rem;background: rgba(0,0,0,0.6);color:#fff;z-index:10;text-align: center;line-height: 10rem;}
 .category .product-list-later li .mask span{display:block;font-size:0.8rem;background: #fc6496;width:8rem;height: 2rem;border-radius: 2rem;position: absolute;top:40%;left:30%;line-height: 2rem;}
-.category .product-list-later li .mask>div{width:2rem;height: 2rem;position: absolute;background-color: red;top:40%;left:33%;background: url("../../../img/time.png") no-repeat;
-    z-index:20;}
+.category .product-list-later li .mask>div{width:2rem;height: 2rem;position: absolute;background-color: red;top:40%;left:33%;background: url("../../img/time.png") no-repeat; z-index:20;}
 
-
+#tab li:nth-child(1) a div{background-position:0.15rem -5.8rem; }
+#tab li:nth-child(1) a{  color: #fc6496;}
 
 
 

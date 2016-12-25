@@ -58,7 +58,7 @@
         <ul class="product-list" ng-if="showNum==1">
             <li ng-repeat="obj in arrCategory" class="clearfix">
                 <a href="" class="img">
-                    <img src="{{obj.banner}}" alt="">
+                    <img lazy-src="{{obj.banner}}" alt="">
                     <div class="discount"><span>{{obj.discount}}</span>折起</div>
                 </a>
                 <div class="infor clearfix">
