@@ -24,6 +24,11 @@ angular.module('searchModule',[])
         searchService.getCate().success(function(res) {
             $scope.arr1=res.data[101];
             console.log(res.data[101]);
-
         })
+        $scope.back= function () {
+            history.back();
+        }
+
+
+
     }])

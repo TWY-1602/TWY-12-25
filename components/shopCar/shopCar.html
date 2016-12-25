@@ -1,39 +1,26 @@
-<div id="shopcar">
-    <div class="top">
+<div id="shopCar">
+    <div class="header">
         <p>购物车</p>
         <a href="">完成</a>
     </div>
-    <div class="main">
-        <p></p>
+    <div class="main-empty" ng-hide="false">
+        <div></div>
         <p>空空的</p>
         <a href="">去逛逛</a>
     </div>
-    <div class="bottom">
-        <a href=""></a>
-        <p class="p1">全选</p>
-        <p class="p2">合计</p>
-        <p class="p3">￥0.00</p>
-        <a href="">结算</a>
-    </div>
-</div>
 
-<!--有商品的购物车页面-->
-<div id="buycar">
-    <div class="top">
-        <p>购物车</p>
-        <a href="">编辑</a>
-    </div>
-    <div class="main">
-        <ul>
+    <!--有商品的购物车页面-->
+    <div class="main-product" ng-hide="true">
+        <ul class="product-list">
             <li>
-                <p class="p1">LAMBKIN</p>
-                <a href=""></a>
-                <img src="img/img.jpg" alt="">
-                <p class="p2">LAMBKIN韩版加绒长袖开衫外套</p>
-                <p class="p3">尺码：100CM</p>
-                <p class="p4">颜色：粉色</p>
-                <p class="p5">￥59.00</p>
-                <div class="s1">
+                <div class="checkBtn"></div>
+                <div class="img"><img src="" alt=""></div>
+                <div class="infor">
+                    <p>【保税区直发】 澳大利亚Goat Soap 纯手工山羊奶皂100g 柠檬味 【3件起发】</p>
+                    <p>规格默认</p>
+                </div>
+                <div class="good-price">
+                    <span>¥23.00</span>
                     <select name="" id="">
                         <option value="">1</option>
                         <option value="">2</option>
@@ -43,11 +30,24 @@
             </li>
         </ul>
     </div>
+
+
+
+
+
+
+
+
+
     <div class="bottom">
-        <a href=""></a>
-        <p class="p1">全选</p>
-        <p class="p2">合计</p>
-        <p class="p3">￥0.00</p>
-        <a href="">结算</a>
+        <a class="checkAll" href=""><span></span>全选</a>
+        <div>
+            <span class="total">合计:</span>
+            <span class="price">￥0.00</span>
+        </div>
+        <a href="" class="all">结算</a>
     </div>
+    <div class="dis"></div>
 </div>
+
+

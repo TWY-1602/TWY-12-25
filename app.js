@@ -5,11 +5,11 @@ document.documentElement.style.fontSize = innerWidth/20+"px";
 window.addEventListener('resize',function(){
     document.documentElement.style.fontSize = innerWidth/20+"px";
 });
-var myApp = angular.module("myApp", ['ui.router','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','category1Module','rightModule']);
+var myApp = angular.module("myApp", ['ui.router','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','rightModule']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
-    $urlRouterProvider.otherwise('/hot/category1/1/');
+    $urlRouterProvider.otherwise('/hot');
     $stateProvider
         .state("hot", {
             url: "/hot",
@@ -40,12 +40,6 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             templateUrl: "components/hot/category/category.html",
             controller:"CategoryController",
             css:"components/hot/category/category.css"
-        })
-        .state("hot.category1", {
-            url:"/category1/:id/",
-            templateUrl: "components/hot/category1/category1.html",
-            controller:"Category1Controller",
-            css:["components/hot/category1/category1.css","components/hot/hot.css","components/hot/swiper-3.3.1.min.css"]
         })
         .state("hot.search", {
             url:"/search",
