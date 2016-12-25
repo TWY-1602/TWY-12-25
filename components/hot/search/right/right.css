@@ -1,0 +1,8 @@
+.right{height: 100%;width: 62%;background: #fff;overflow: auto;}
+.right .right1{width: 100%;}
+.right .right1>p{font-size: 10%;color: #999094;margin-left: 5%; }
+.right .right1 ul{ height:100%;width: 100%;}
+.right .right1 ul li{float: left;  position: relative;  width: 50%; height:8rem;}
+ .right .right1 ul li img{width:80%;left:7%;position: absolute;}
+ .main .right .right1 ul li p{font-size:10%;    top: 71%; left: 23%;position: absolute;}
+.dis{height: 3.5rem;}

@@ -50,6 +50,8 @@ right:0;top:35%;display: inline-block;margin-right:1rem; }
 
 
 #mine .dis{height: 3.5rem;}
+#tab li:nth-child(4) a div{background-position:-6rem -5.8rem; }
+#tab li:nth-child(4) a{  color: #fc6496;}
 
 
 

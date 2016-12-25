@@ -5,7 +5,7 @@ document.documentElement.style.fontSize = innerWidth/20+"px";
 window.addEventListener('resize',function(){
     document.documentElement.style.fontSize = innerWidth/20+"px";
 });
-var myApp = angular.module("myApp", ['ui.router','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','rightModule']);
+var myApp = angular.module("myApp", ['ui.router','me-lazyload','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','detailModule','rightModule']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -48,6 +48,13 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             controller:"SearchController"
 
         })
+        .state("hot.detail", {
+            url:"/detail",
+            css:"components/hot/detail/detail.css",
+            templateUrl: "components/hot/detail/detail.html",
+            controller:"DetailController"
+
+        })
         .state("mall.search", {
             url:"/search",
             css:"components/hot/search/search.css",
@@ -59,7 +66,6 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             css:"components/hot/search/right/right.css",
             templateUrl: "components/hot/search/right/right.html",
             controller:"RightController"
-
         })
     ;
 });

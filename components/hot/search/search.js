@@ -25,10 +25,7 @@ angular.module('searchModule',[])
             $scope.arr1=res.data[101];
             console.log(res.data[101]);
         })
-        $scope.back= function () {
+        $scope.back=function () {
             history.back();
         }
-
-
-
     }])
