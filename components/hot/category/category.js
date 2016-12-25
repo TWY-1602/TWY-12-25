@@ -22,8 +22,11 @@ angular.module('categoryModule',[])
             $scope.arr02 = res.data.goods;
 
         });
+        $scope.index=0;
+
         data1Service.ZhuB($scope.sendNum).success(function(res){
             $scope.arr03=res.data.attr;
+            $scope.arr04=res.data.attr[$scope.index].list;
 
         });
 

@@ -38,8 +38,8 @@
 .wrapper .spec-mian .goods-list li .goods-item-details .goods-info .goods-prices .mall-del{color:#735660;font-size:12px;  }
 
 .menu-mask{position: fixed;z-index:102;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5);}
-
-
+.menu-cont{position: fixed;z-index:104;left:0;bottom:0;width:100%;height:70%;background:#f6f6f6;padding-bottom:94px;}
+.menu-cont .category-tab-hd{height:100%;position:relative;float:left;width:118px;overflow:hidden;     }
 
 
 
