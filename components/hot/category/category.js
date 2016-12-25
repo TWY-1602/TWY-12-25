@@ -23,7 +23,7 @@ angular.module('categoryModule',[])
 
         });
         $scope.index=0;
-
+        $scope.clicked=0;
         data1Service.ZhuB($scope.sendNum).success(function(res){
             $scope.arr03=res.data.attr;
             $scope.arr04=res.data.attr[$scope.index].list;
@@ -32,7 +32,9 @@ angular.module('categoryModule',[])
 
 
 
-
+        $scope.changeIndex=function (i) {
+            $scope.clicked=i;
+        }
         $scope.changeColor=function(str){
             $scope.id=str;
         }
