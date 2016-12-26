@@ -1,0 +1,144 @@
+{
+  "ret": "0",
+  "msg": "操作成功",
+  "data": {
+    "goods_id": "31760",
+    "goods_name": "惠氏（Wyeth）S-26爱儿乐妈妈孕产妇营养配方奶粉 900g/罐（新配方）",
+    "goods_thumb": "http://s03.lmbang.com/M00/48/B5/ecloD1Ygyk-AZsdZAAG-XQ2IVAc752.jpg!c300x300x100.jpg",
+    "goods_sub_name": "",
+    "cat_id": "730",
+    "market_price": "197",
+    "shop_price": "197",
+    "goods_brief": "",
+    "goods_desc": "<img src=\"http://s06.lmbang.com/M00/68/85/DpgiA1YgymuAa9a7AAIeFwaZAZ0775.jpg!q100\" alt=\"\" /><img src=\"http://s01.lmbang.com/M00/48/B5/ecloD1YgymuAfP4VAADOyvc8zGQ310.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/4F/56/ecloA1YgymyATM0wAAG5NHmB48A977.jpg!q100\" alt=\"\" /><img src=\"http://s01.lmbang.com/M00/48/B5/ecloD1Ygym2Aecu3AAGSMhurlNA163.jpg!q100\" alt=\"\" /><img src=\"http://s02.lmbang.com/M00/68/85/DpgiA1Ygym-AC3OKAAH0D_07JYw136.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/68/85/DpgiA1YgynGAaS1PAAG1MarV3Pk567.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/48/B5/ecloD1YgynSARzwgAAHiH42uB4g062.jpg!q100\" alt=\"\" />",
+    "is_shipping": "满88元免邮",
+    "is_on_sale": "1",
+    "is_alone_sale": "1",
+    "is_delete": "0",
+    "adapt_age": ",11,",
+    "sold_number": 303,
+    "comment_number": "5",
+    "evaluation": "4",
+    "haito_country": "",
+    "limit_number": "0",
+    "brand_id": "951",
+    "buy_limit_num": "0",
+    "goods_unit": "罐",
+    "haito_country_type": "0",
+    "promote_price": "197.00",
+    "promote_start_date": "1416448800",
+    "promote_end_date": "1483675200",
+    "sell_type": 0,
+    "ship_template_id": "5508",
+    "keywords": "Wyeth 惠氏，S-26爱儿乐妈妈孕产妇营养配方奶粉",
+    "is_seckill": "0",
+    "business_type": "9",
+    "unsale_time": "1458616452",
+    "create_time": "1444989621",
+    "goods_sn": "89511600",
+    "purchase_area": "55",
+    "store_id": "0",
+    "platform": "1",
+    "haito_id": "0",
+    "template_id": "5508",
+    "cat_name": "大陆惠氏",
+    "is_duty": 0,
+    "distribution": "http://s03.lmbang.com/M00/A6/A8/DhFprFRPpe-AN7eVAABKv0y3-UM805.png!c640x200x100.png",
+    "parameters": [
+      {
+        "goods_attr_id": "43254",
+        "goods_id": "31760",
+        "cat_id": "730",
+        "attr_key": "产地",
+        "attr_value": "中国大陆",
+        "attr_name": ""
+      },
+      {
+        "attr_value": "89511600",
+        "attr_name": "商品编码"
+      },
+      {
+        "attr_value": "惠氏",
+        "attr_name": "品牌"
+      }
+    ],
+    "attribute": {
+      "value": [
+        {
+          "default_attr_id": "5342",
+          "attr_name": "属性",
+          "attr_id": "1560",
+          "attr_value_list": [
+            {
+              "id": "313897",
+              "goods_id": "31760",
+              "attr_value_id": "5342",
+              "attr_value": "900g",
+              "sort_order": "0"
+            }
+          ]
+        },
+        {
+          "default_attr_id": "4045",
+          "attr_name": "规格",
+          "attr_id": "1559",
+          "attr_value_list": [
+            {
+              "id": "313896",
+              "goods_id": "31760",
+              "attr_value_id": "4045",
+              "attr_value": "默认",
+              "sort_order": "0"
+            }
+          ]
+        }
+      ],
+      "combin": [
+        {
+          "link_ids": "5342|4045",
+          "product_number": 10,
+          "mod_number": 10,
+          "p_id": 130468,
+          "product_id": 32612,
+          "shop_price": "197.00",
+          "market_price": "197.00"
+        }
+      ],
+      "product_number": 10,
+      "mod_number": 10,
+      "p_id": "130468",
+      "product_id": 32612,
+      "shop_price": null,
+      "market_price": "197.00"
+    },
+    "promote": [],
+    "goods_warrants": {
+      "tips": [
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXMuAJFVNAAAGt9j7PvA170.png",
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXM-AcMprAAAHHH3wfcY881.png",
+        "http://s08.lmbang.com/M00/DE/BC/DpgiA1VmhF6AV5XIAAAGyHFaKbs034.png",
+        "http://s08.lmbang.com/M00/C9/EB/DpgiA1VQXM-AJeiMAAAHFn96EqM886.png"
+      ],
+      "url": ""
+    },
+    "pictures": [
+      {
+        "picture": "http://s08.lmbang.com/M00/48/B5/ecloD1YgyqiAJdLOAAG-XQ2IVAc087.jpg",
+        "thumb": "http://s08.lmbang.com/M00/48/B5/ecloD1YgyqiAJdLOAAG-XQ2IVAc087.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s07.lmbang.com/M00/4F/56/ecloA1YgyqqAdiI2AAF_vPpaZOU872.jpg",
+        "thumb": "http://s07.lmbang.com/M00/4F/56/ecloA1YgyqqAdiI2AAF_vPpaZOU872.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s07.lmbang.com/M00/68/85/DpgiA1YgyquAKE55AAHSUQmqpS0666.jpg",
+        "thumb": "http://s07.lmbang.com/M00/68/85/DpgiA1YgyquAKE55AAHSUQmqpS0666.jpg!c640x640x100.jpg"
+      }
+    ],
+    "goods_extend": {
+      "business_type": "9",
+      "tips": ""
+    }
+  },
+  "timestamp": 1482720065
+}

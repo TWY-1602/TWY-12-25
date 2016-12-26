@@ -95,7 +95,7 @@
             <h3>今日爆款</h3>
             <ul class="hot-list">
                 <li ng-repeat="obj in arrCategory1">
-                    <a href="">
+                    <a href="" ui-sref=".detail" ng-click="enterDetail(obj.goods_id)">
                         <div class="hot-img"><img src="{{obj.goods_thumb}}" alt=""></div>
                         <div class="hot-infor">
                             <p>{{obj.goods_name}}</p>

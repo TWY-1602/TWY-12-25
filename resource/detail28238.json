@@ -1,0 +1,148 @@
+{
+  "ret": "0",
+  "msg": "操作成功",
+  "data": {
+    "goods_id": "28238",
+    "goods_name": "衍生 孩之乐草本铁锌钙软糖 零食水蜜桃味糖果1克/粒*300粒 （10粒*30包/罐）",
+    "goods_thumb": "http://s05.lmbang.com/M00/36/9E/ecloD1X6n9uAFTTvAALPrrkGnOg704.jpg!c300x300x100.jpg",
+    "goods_sub_name": "衍生 药食同源，健康之源。",
+    "cat_id": "501",
+    "market_price": "69.9",
+    "shop_price": "69.9",
+    "goods_brief": "衍生 药食同源，健康之源。",
+    "goods_desc": "<img src=\"http://s05.lmbang.com/M00/67/44/DpgiA1YeSgaAbC4kAALu-7adA2A126.jpg!q100\" alt=\"\" /><img src=\"http://s02.lmbang.com/M00/47/74/ecloD1YeSgiALixxAAMGjxfvwO0330.jpg!q100\" alt=\"\" /><img src=\"http://s01.lmbang.com/M00/4E/15/ecloA1YeSgqAJNNhAAKJ2F0nTuk067.jpg!q100\" alt=\"\" /><img src=\"http://s08.lmbang.com/M00/67/44/DpgiA1YeSg2AZH2dAARgr8oWseQ329.jpg!q100\" alt=\"\" /><img src=\"http://s06.lmbang.com/M00/47/74/ecloD1YeShGAS-i4AAVyO3acEjA851.jpg!q100\" alt=\"\" /><img src=\"http://s02.lmbang.com/M00/47/74/ecloD1YeShaAfuCFAAVBzDO2iBg500.jpg!q100\" alt=\"\" /><img src=\"http://s05.lmbang.com/M00/67/44/DpgiA1YeShiAI1OEAAN5vdOTb0E710.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/4E/15/ecloA1YeSh2ATfTzAAX60MmzmrQ399.jpg!q100\" alt=\"\" /><img src=\"http://s06.lmbang.com/M00/4E/15/ecloA1YeSiKAeslQAAV4I24-lts990.jpg!q100\" alt=\"\" /><img src=\"http://s02.lmbang.com/M00/67/44/DpgiA1YeSiSAKFUuAAMZ56WB78E659.jpg!q100\" alt=\"\" />",
+    "is_shipping": "满88元免邮",
+    "is_on_sale": "1",
+    "is_alone_sale": "1",
+    "is_delete": "0",
+    "adapt_age": "0",
+    "sold_number": 651,
+    "comment_number": "18",
+    "evaluation": "5",
+    "haito_country": "",
+    "limit_number": "0",
+    "brand_id": "1032",
+    "buy_limit_num": "0",
+    "goods_unit": "盒",
+    "haito_country_type": "0",
+    "promote_price": "69.90",
+    "promote_start_date": "1423015200",
+    "promote_end_date": "1483675200",
+    "sell_type": 0,
+    "ship_template_id": "5508",
+    "keywords": "衍生，孩之乐，草本铁锌钙软糖",
+    "is_seckill": "0",
+    "business_type": "9",
+    "unsale_time": "1448009674",
+    "create_time": "1442488365",
+    "goods_sn": "68861740",
+    "purchase_area": "55",
+    "store_id": "0",
+    "platform": "1",
+    "haito_id": "0",
+    "template_id": "5508",
+    "cat_name": "辅食调料",
+    "is_duty": 0,
+    "distribution": "http://s03.lmbang.com/M00/A6/A8/DhFprFRPpe-AN7eVAABKv0y3-UM805.png!c640x200x100.png",
+    "user_evaluation": {
+      "uid": null,
+      "nickname": null,
+      "face": null,
+      "content": "衍生多年专注于婴儿辅食，是婴儿辅食妈妈信赖品牌，严格的品质控制为宝宝提供健康温和的辅食。"
+    },
+    "parameters": [
+      {
+        "goods_attr_id": "38122",
+        "goods_id": "28238",
+        "cat_id": "501",
+        "attr_key": "产地",
+        "attr_value": "中国",
+        "attr_name": ""
+      },
+      {
+        "attr_value": "68861740",
+        "attr_name": "商品编码"
+      },
+      {
+        "attr_value": "衍生",
+        "attr_name": "品牌"
+      }
+    ],
+    "attribute": {
+      "value": [
+        {
+          "default_attr_id": "2727",
+          "attr_name": "规格",
+          "attr_id": "1116",
+          "attr_value_list": [
+            {
+              "id": "313951",
+              "goods_id": "28238",
+              "attr_value_id": "2727",
+              "attr_value": "默认",
+              "sort_order": "0"
+            }
+          ]
+        }
+      ],
+      "combin": [
+        {
+          "link_ids": "2727",
+          "product_number": 25,
+          "mod_number": 25,
+          "p_id": 105544,
+          "product_id": 32643,
+          "shop_price": "69.90",
+          "market_price": "69.90"
+        }
+      ],
+      "product_number": 25,
+      "mod_number": 25,
+      "p_id": "105544",
+      "product_id": 32643,
+      "shop_price": null,
+      "market_price": "69.90"
+    },
+    "promote": [],
+    "goods_warrants": {
+      "tips": [
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXMuAJFVNAAAGt9j7PvA170.png",
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXM-AcMprAAAHHH3wfcY881.png",
+        "http://s08.lmbang.com/M00/DE/BC/DpgiA1VmhF6AV5XIAAAGyHFaKbs034.png",
+        "http://s08.lmbang.com/M00/C9/EB/DpgiA1VQXM-AJeiMAAAHFn96EqM886.png"
+      ],
+      "url": ""
+    },
+    "pictures": [
+      {
+        "picture": "http://s08.lmbang.com/M00/3D/3F/ecloA1X6oB6AY53LAALPrrkGnOg082.jpg",
+        "thumb": "http://s08.lmbang.com/M00/3D/3F/ecloA1X6oB6AY53LAALPrrkGnOg082.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s03.lmbang.com/M00/56/6D/DpgiA1X6oB-AImgNAAKrIs2JROI959.jpg",
+        "thumb": "http://s03.lmbang.com/M00/56/6D/DpgiA1X6oB-AImgNAAKrIs2JROI959.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s05.lmbang.com/M00/36/9E/ecloD1X6oCKASOGcAAKveDLcwlY964.jpg",
+        "thumb": "http://s05.lmbang.com/M00/36/9E/ecloD1X6oCKASOGcAAKveDLcwlY964.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s02.lmbang.com/M00/3D/3F/ecloA1X6oCOAew3MAAKUErvsIlg773.jpg",
+        "thumb": "http://s02.lmbang.com/M00/3D/3F/ecloA1X6oCOAew3MAAKUErvsIlg773.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s01.lmbang.com/M00/3D/3F/ecloA1X6oCOAUBcXAAGrfj0FKKk473.jpg",
+        "thumb": "http://s01.lmbang.com/M00/3D/3F/ecloA1X6oCOAUBcXAAGrfj0FKKk473.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s08.lmbang.com/M00/3D/3F/ecloA1X6oCaAAXygAAIsgi9S9ko703.jpg",
+        "thumb": "http://s08.lmbang.com/M00/3D/3F/ecloA1X6oCaAAXygAAIsgi9S9ko703.jpg!c640x640x100.jpg"
+      }
+    ],
+    "goods_extend": {
+      "business_type": "9",
+      "tips": ""
+    }
+  },
+  "timestamp": 1482720653
+}
