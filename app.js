@@ -5,6 +5,16 @@ document.documentElement.style.fontSize = innerWidth/20+"px";
 window.addEventListener('resize',function(){
     document.documentElement.style.fontSize = innerWidth/20+"px";
 });
+
+var arrProuct = [];
+window.onload= function () {
+    if (!localStorage.getItem('product')){
+        localStorage.setItem('product',JSON.stringify(arrProuct))
+    }
+}
+//localStorage.clear();
+
+
 var myApp = angular.module("myApp", ['ui.router','me-lazyload','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','detailModule','rightModule']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {

@@ -76,7 +76,38 @@
     </div>
     <div class="bottom clearfix">
         <div class="buyNow">立即购买</div>
-        <div class="addcart">加入购物车</div>
+        <div class="addcart" ng-click="showInfor()">加入购物车</div>
         <a href=""><span></span></a>
     </div>
+    <div class="mask" ng-hide="isHide">
+        <div class="buyInfor">
+            <div class="infor">
+                <div class="img"><img src="{{objDetail.goods_thumb}}" alt=""></div>
+                <div class="good-introduce">
+                    <p>{{objDetail.goods_name}}</p>
+                    <p>￥{{objDetail.shop_price}}<span>￥{{objDetail.market_price}}</span></p>
+                </div>
+                <div class="close" ng-click="hideInfor()"><span></span></div>
+            </div>
+            <div class="options">
+                <p>
+                    <span>规格</span>
+                    <span>默认</span>
+                </p>
+                <div class="chooseNum">
+                    <span>数量:</span>
+                    <select name="" id="" >
+                        <option value="{{str}}" ng-repeat="str in arrNum">{{str}}</option>
+                    </select>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="">立刻购买</a>
+                <a href="" ng-click="addProduct()">加入购物车</a>
+            </div>
+        </div>
+    </div>
+
+
+
 </div>

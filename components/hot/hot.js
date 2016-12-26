@@ -60,6 +60,8 @@ angular.module('hotModule',[])
                 $scope.arrCategory1 =res.data;
             });
             $scope.changeContent=function (id) {
+                document.body.scrollTop=1300;
+                document.documentElement.scrollTop=1300;
                 $scope.showNum=id;
                 if( $scope.showNum==1){
                     hotService.getCategory1().success(function (res) {
@@ -69,6 +71,7 @@ angular.module('hotModule',[])
                         $scope.arrCategory1 =res.data;
                     });
                 }else if( $scope.showNum==2){
+
                     hotService.getCategory4().success(function (res) {
                         $scope.arrCategory =res.data.list;
                     });
@@ -87,13 +90,46 @@ angular.module('hotModule',[])
             // }
             $scope.changeEnter=function (num) {
                 $rootScope.num = num;
+                document.onscroll=null;
             };
             //从今日爆款进入详情页
             $scope.enterDetail=function (id) {
                 $rootScope.goodId = id;
+                document.onscroll=null;
             }
-            angular.element($window).bind("scroll", function(e) {
-            });
+            // $scope.isFix=false;
+            // angular.element($window).bind("scroll", function(e) {
+            //    // console.log(e.target.scrollingElement.scrollTop)
+            //     if(e.target.scrollingElement.scrollTop>1300){
+            //         $scope.isFix=true;
+            //         console.log($scope.isFix)
+            //     }else{
+            //         $scope.isFix=false;
+            //         console.log($scope.isFix)
+            //     }
+            // });
+
+            // $scope.isShow=true;
+            document.onscroll =function () {
+                var scrollTop = window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop;
+                // console.log(scrollTop)
+                if(scrollTop>1300){
+                    document.getElementsByClassName('main-bottom')[0].className = "main-bottom fix";
+                }else{
+                    document.getElementsByClassName('main-bottom')[0].className = "main-bottom";
+                }
+                if(scrollTop>500){
+                    document.getElementById('returnTop').style.display="block";
+                }else{
+                    document.getElementById('returnTop').style.display="none";
+                }
+            }
+            $scope.returnTop=function () {
+                document.body.scrollTop=0;
+                document.documentElement.scrollTop=0;
+            }
+
+
         });
 
 

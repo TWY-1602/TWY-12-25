@@ -35,8 +35,8 @@ background-size:100% 100%; }
 #hot .main-bottom .category-title .show a{color:#fc6496;border-bottom-color: #fc6496;}
 #hot .main-bottom>div{width:100%}
 .dis{height:3.5rem; }
-
-
+#hot .fix{position: fixed;top:0;width:100%;z-index:100;margin-top:0;}
+#hot #returnTop{width:2rem;height: 2rem;border-radius:50%;background: url(../../img/mall_icons.png) no-repeat -5rem 0 ;z-index:101;position: fixed;right:1rem;bottom:5.5rem;background-size:7.5rem;display: none; }
 
 .category .product-list {margin-bottom: 2rem;}
 .category .product-list li{margin-bottom:0.7rem; background: #fff;width:100%;}

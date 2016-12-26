@@ -78,3 +78,32 @@ border-bottom: 1px solid #e3e3e3;  color: #735660;  }
 #detail .bottom .addcart{ background-color: #fc6496;}
 #detail .bottom a{width: 4rem;  display: block;line-height:3rem;text-align: center; float: left;}
 #detail .bottom a span{ background: url(img/mall_icons.png) no-repeat 0 -16.81rem;display: inline-block;width:1.5rem;height: 1.5rem;background-size: 7.5rem;}
+
+
+#detail .mask{position: fixed;width:100%;height:100%;top:0;background: rgba(0,0,0,0.5);  z-index:300; }
+
+#detail .mask .buyInfor{position: absolute;left:0;bottom: 0;background: #fff;width:100%;}
+#detail .mask .buyInfor .infor{padding:1.2rem 0 1rem 1rem;display: flex;justify-content: center;border-bottom:1px solid #e0e0e0; }
+#detail .mask .buyInfor .infor .img{border:1px solid #e0e0e0;width:3rem;height:3rem;margin-right:0.4rem; }
+#detail .mask .buyInfor .infor .img img{width:100%;height:100%; }
+#detail .mask .buyInfor .infor .good-introduce{padding-right: 0.6rem;box-sizing: border-box;width:12.75rem;}
+#detail .mask .buyInfor .infor .good-introduce p{font-size:0.75rem;color:#322228;}
+#detail .mask .buyInfor .infor .good-introduce p:nth-child(2){font-size:0.9rem;color:#fc6496; }
+#detail .mask .buyInfor .infor .good-introduce p:nth-child(2) span{margin-left:0.4rem;text-decoration: line-through;color:#999094;font-size: 0.75rem;}
+#detail .mask .buyInfor .infor  .close{text-align: center;width:3rem;height: 3rem;line-height:3rem;}
+#detail .mask .buyInfor .infor  .close span{width:1rem;height: 1rem;display: inline-block;background: url("../../../img/mall_icons.png") 0 -15.375rem no-repeat;background-size:7.5rem; }
+#detail .mask .options{padding:0  1rem;border-bottom: 1px solid #e0e0e0;}
+#detail .mask .options p{border-bottom: 1px solid #e0e0e0;}
+#detail .mask .options p span:first-child{padding:0.6rem 0 ;color: #999094;  font-size: 0.75rem;display: block; }
+#detail .mask .options p span:nth-child(2){padding:0 0.6rem;color: #ffffff;  font-size: 0.75rem;display: block;width:1.5rem;height: 1.5rem;margin:0 0.5rem 0.5rem 0;background: #fc6496;border-radius: 0.3rem;line-height:1.5rem;  }
+#detail .mask .options .chooseNum{padding:1rem 0;font-size:0.75rem;color:#999094;  }
+#detail .mask .options .chooseNum span{width:2.25rem;height:2.25rem; margin-right:0.6rem; }
+#detail .mask .options .chooseNum select{
+    -webkit-appearance: none;outline: none;
+    -moz-appearance: none;
+    appearance: none;border:1px solid #e0e0e0;padding:0 0.5rem;width:2.25rem;height:2.25rem;border-radius: 0.3rem; }
+#detail .mask .btn{padding:0.4rem; }
+#detail .mask .btn a{display: inline-block;width:9.25rem;height:2.5rem;border-radius:0.4rem;color:#fff;text-align: center;line-height: 2.5rem;font-size: 1rem;background: #fc6496;  }
+#detail .mask .btn a:nth-child(1){background: #ffab34;}
+
+
