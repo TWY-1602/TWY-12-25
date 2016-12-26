@@ -10,12 +10,6 @@ angular.module('hotModule',[])
             getA:function () {
               return $http.get('resource/main1.json')
             },
-            getB:function () {
-                return $http.get('resource/main2.json')
-            },
-            getC:function () {
-                return $http.get('resource/main3.json')
-            },
             getCategory1:function () {
                 return $http.get('resource/new.json')
             },
@@ -66,9 +60,7 @@ angular.module('hotModule',[])
                 $scope.arrCategory1 =res.data;
             });
             $scope.changeContent=function (id) {
-                // $state.go('hot.category1',{ id : id});
                 $scope.showNum=id;
-
                 if( $scope.showNum==1){
                     hotService.getCategory1().success(function (res) {
                         $scope.arrCategory =res.data.list;
@@ -94,26 +86,16 @@ angular.module('hotModule',[])
             //     console.log(num)
             // }
             $scope.changeEnter=function (num) {
-                $rootScope.num = num
+                $rootScope.num = num;
+            };
+            //从今日爆款进入详情页
+            $scope.enterDetail=function (id) {
+                $rootScope.goodId = id;
             }
-
-
-
             angular.element($window).bind("scroll", function(e) {
-                // console.log(e)
-                // // console.log(e.pageYOffset)
-                // // $scope.visible = false;
-            })
+            });
+        });
 
-
-        })
-
-        hotService.getB().success(function (res) {
-            // console.log(res.data)
-         });
-        hotService.getC().success(function (res) {
-            // console.log(res.data)
-        })
 
 
     }])

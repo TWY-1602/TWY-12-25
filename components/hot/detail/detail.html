@@ -1,0 +1,82 @@
+<div id="detail">
+    <div class="header">
+        <a href="" ng-click="back()"><span></span></a>
+        <a href="" ng-click="back()"><span></span></a>
+        <a href=""><span></span></a>
+    </div>
+    <div class="master">
+        <img src="{{objDetail.goods_thumb}}" alt="">
+    </div>
+    <!--活动时间-->
+    <div class="time">
+        <p>距离特卖结束还有：<span>12天21：23:09</span> 赶紧加入购物车吧</p>
+    </div>
+    <!--商品信息-->
+    <div class="floor">
+        <div class="prices">
+            <span>￥</span><span>{{objDetail.shop_price}}</span>
+            <span>￥{{objDetail.market_price}}</span>
+        </div>
+        <div class="name">
+            <p>{{objDetail.goods_name}}</p>
+            <span></span>
+        </div>
+    </div>
+    <div class="size">
+        <p>请选择<span>规格、属性、数量<span></span> ></span></p>
+    </div>
+    <div class="row">
+        <p><span><i></i>免邮费</span><span><i></i>品牌供应商从德国(保)发货</span></p>
+    </div>
+    <div class="main">
+        <p class="annotation">{{objDetail.goods_sub_name}}</p>
+        <p class="introduce">
+            <span>商品介绍</span>
+            <a href="">详情介绍 ></a>
+        </p>
+        <p class="comment">
+            <span>评价</span>
+            <i>好评100%</i>
+            <a href="">销量{{objDetail.sold_number}}件 ></a>
+        </p>
+    </div>
+    <div class="row row1">
+        <p><span><i></i>正品保证</span><span><i></i>七天内退换货</span></p>
+    </div>
+
+    <div class="brand">
+        <img src="components/hot/detail/img/eQ519FQpOVCAIHNAAACBPa3KI-k716.jpg" alt="">
+        <div class="brand-name">
+            <p>{{name}}</p>
+            <p><span></span><span></span><span></span><span></span><span></span></p>
+        </div>
+        <span> ></span>
+    </div>
+
+    <!--热销商品-->
+    <ul class="guess-good clearfix">
+        <li><a href="" >品牌热销</a></li>
+        <li><a href="">同类推荐</a></li>
+    </ul>
+    <ul class="hot clearfix">
+        <li>
+            <img src="components/hot/detail/img/DpgiA1dgx5CAIbWLAAKrR50C9Mo835.gif!c300x300x100.gif" alt="">
+            <h5>【香港直邮】日本DHC蝶翠诗 睫毛增长修复液6.5ml</h5>
+            <p>¥86.00</p>
+        </li>
+    </ul>
+    <!--图片部分-->
+    <ul class="category clearfix">
+        <li><a href="" >介绍</a></li>
+        <li><a href="">参数</a></li>
+        <li><a href="">评价</a></li>
+        <li><a href="">成交记录</a></li>
+    </ul>
+    <div class="img">
+    </div>
+    <div class="bottom clearfix">
+        <div class="buyNow">立即购买</div>
+        <div class="addcart">加入购物车</div>
+        <a href=""><span></span></a>
+    </div>
+</div>

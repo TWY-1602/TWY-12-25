@@ -1,0 +1,154 @@
+{
+  "ret": "0",
+  "msg": "操作成功",
+  "data": {
+    "goods_id": "2900",
+    "goods_name": "日本Pigeon贝亲成长训练宝宝水杯礼盒1、2、3段（绿色）",
+    "goods_thumb": "http://s06.lmbang.com/M00/C0/E2/tzlM81VasMmAT7hBAANCAF7mgBs454.jpg!c300x300x100.jpg",
+    "goods_sub_name": "由贝亲中国总代理处采购，由辣妈帮北京仓库发货，100%放心。内含3阶段不同的杯头，可锻炼宝宝自然的饮水习惯。另配多功能吸管刷，是妈妈清洗的好帮手。",
+    "cat_id": "565",
+    "market_price": "158",
+    "shop_price": "138",
+    "goods_brief": "由贝亲中国总代理处采购，由辣妈帮北京仓库发货，100%放心。内含3阶段不同的杯头，可锻炼宝宝自然的饮水习惯。另配多功能吸管刷，是妈妈清洗的好帮手。",
+    "goods_desc": "<img src=\"http://s03.lmbang.com/M00/CE/36/eQ519FR-v0-AL9uPAATc821sTyk209.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/E0/03/DhFprFR-v1CAKEOIAAO72XNuRiQ573.jpg!q100\" alt=\"\" /><img src=\"http://s04.lmbang.com/M00/E0/03/DhFprFR-v1KAM2XRAAUFB8K3UF0320.jpg!q100\" alt=\"\" /><img src=\"http://s07.lmbang.com/M00/CE/36/eQ519FR-v1OAHrtwAANuOlEoRjY144.jpg!q100\" alt=\"\" /><img src=\"http://s03.lmbang.com/M00/E0/03/DhFprFR-v1OAWoxMAAIb4JHKXaI846.jpg!q100\" alt=\"\" />",
+    "is_shipping": "满88元免邮",
+    "is_on_sale": "1",
+    "is_alone_sale": "1",
+    "is_delete": "0",
+    "adapt_age": ",0,1,2,3,",
+    "sold_number": 473,
+    "comment_number": "20",
+    "evaluation": "5",
+    "haito_country": "",
+    "limit_number": "0",
+    "brand_id": "46",
+    "buy_limit_num": "0",
+    "goods_unit": "个",
+    "haito_country_type": "0",
+    "promote_price": "138.00",
+    "promote_start_date": "1413684000",
+    "promote_end_date": "1483675200",
+    "sell_type": 0,
+    "ship_template_id": "5508",
+    "keywords": "宝宝水杯，套装",
+    "is_seckill": "0",
+    "business_type": "9",
+    "unsale_time": "1447328976",
+    "create_time": "1432006858",
+    "goods_sn": "44320354",
+    "purchase_area": "19",
+    "store_id": "0",
+    "platform": "1",
+    "haito_id": "0",
+    "template_id": "5508",
+    "cat_name": "水壶水杯/配件",
+    "is_duty": 0,
+    "distribution": "http://s03.lmbang.com/M00/A6/A8/DhFprFRPpe-AN7eVAABKv0y3-UM805.png!c640x200x100.png",
+    "user_evaluation": {
+      "uid": "12377079",
+      "nickname": "Alma",
+      "face": "http://s04.lmbang.com/M00/79/E2/tzlM81UaEeaAEIaCAAFUCP_w1ys740.jpg",
+      "content": "内含3阶段不同的杯头，可锻炼宝宝自然的饮水习惯。另配多功能吸管刷，是妈妈清洗的好帮手。温馨提示：1.使用前务必清洁干净。2.请勿长时间煮沸消毒。3.请勿放置在靠近火的地方。"
+    },
+    "parameters": [
+      {
+        "goods_attr_id": "75291",
+        "goods_id": "2900",
+        "cat_id": "565",
+        "attr_key": "产地",
+        "attr_value": "日本",
+        "attr_name": ""
+      },
+      {
+        "attr_value": "44320354",
+        "attr_name": "商品编码"
+      },
+      {
+        "attr_value": "Pigeon/贝亲",
+        "attr_name": "品牌"
+      }
+    ],
+    "attribute": {
+      "value": [
+        {
+          "default_attr_id": "5089",
+          "attr_name": "颜色",
+          "attr_id": "1936",
+          "attr_value_list": [
+            {
+              "id": "313782",
+              "goods_id": "2900",
+              "attr_value_id": "5089",
+              "attr_value": "绿色",
+              "sort_order": "0"
+            }
+          ]
+        },
+        {
+          "default_attr_id": "2791",
+          "attr_name": "规格",
+          "attr_id": "1180",
+          "attr_value_list": [
+            {
+              "id": "313781",
+              "goods_id": "2900",
+              "attr_value_id": "2791",
+              "attr_value": "默认",
+              "sort_order": "0"
+            }
+          ]
+        }
+      ],
+      "combin": [
+        {
+          "link_ids": "5089|2791",
+          "product_number": 10,
+          "mod_number": 10,
+          "p_id": 12478,
+          "product_id": 32694,
+          "shop_price": "138.00",
+          "market_price": "158.00"
+        }
+      ],
+      "product_number": 10,
+      "mod_number": 10,
+      "p_id": "12478",
+      "product_id": 32694,
+      "shop_price": null,
+      "market_price": "158.00"
+    },
+    "promote": [],
+    "goods_warrants": {
+      "tips": [
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXMuAJFVNAAAGt9j7PvA170.png",
+        "http://s02.lmbang.com/M00/C9/EB/DpgiA1VQXM-AcMprAAAHHH3wfcY881.png",
+        "http://s08.lmbang.com/M00/DE/BC/DpgiA1VmhF6AV5XIAAAGyHFaKbs034.png",
+        "http://s08.lmbang.com/M00/C9/EB/DpgiA1VQXM-AJeiMAAAHFn96EqM886.png"
+      ],
+      "url": ""
+    },
+    "pictures": [
+      {
+        "picture": "http://s07.lmbang.com/M00/CE/36/eQ519FR-v3iAFoIuAANXrwkmOYU059.jpg",
+        "thumb": "http://s07.lmbang.com/M00/CE/36/eQ519FR-v3iAFoIuAANXrwkmOYU059.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s06.lmbang.com/M00/E0/04/DhFprFR-v3qACVEYAANro8kUYp4077.jpg",
+        "thumb": "http://s06.lmbang.com/M00/E0/04/DhFprFR-v3qACVEYAANro8kUYp4077.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s04.lmbang.com/M00/CE/36/eQ519FR-v3mAYF1OAAN-ua10R9Q715.jpg",
+        "thumb": "http://s04.lmbang.com/M00/CE/36/eQ519FR-v3mAYF1OAAN-ua10R9Q715.jpg!c640x640x100.jpg"
+      },
+      {
+        "picture": "http://s02.lmbang.com/M00/49/DD/DpgiA1TTGrqABa8pAAQCTmj8Fag421.jpg",
+        "thumb": "http://s02.lmbang.com/M00/49/DD/DpgiA1TTGrqABa8pAAQCTmj8Fag421.jpg!c640x640x100.jpg"
+      }
+    ],
+    "goods_extend": {
+      "business_type": "9",
+      "tips": ""
+    }
+  },
+  "timestamp": 1482720426
+}
