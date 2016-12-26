@@ -4,7 +4,6 @@
 angular.module('searchModule',[])
 
     .service('searchService',['$http',function($http){
-
         return {
             getSearch:function () {
                 return $http.get('resource/search.json');
@@ -14,16 +13,18 @@ angular.module('searchModule',[])
             }
         }
     }])
-    .controller('SearchController',['$scope','$timeout','searchService',function($scope,$timeout,searchService){
+    .controller('SearchController',['$rootScope','$scope','$timeout','searchService','$state',function($rootScope,$scope,$timeout,searchService,$state){
         searchService.getSearch().success(function(res) {
             $scope.arrSearchList=res.data.list;
-        })
-        $scope.color=function () {
-            $scope.id=this.$index;
-        }
+        });
+
         searchService.getCate().success(function(res) {
-            $scope.arr1=res.data[101];
-            console.log(res.data[101]);
+            $scope.id=0;
+            $scope.arr1=res.data[101+$scope.id];
+            $scope.color=function () {
+                $scope.id=this.$index;
+                $scope.arr1=res.data[101+$scope.id];
+            };
         })
         $scope.back=function () {
             history.back();

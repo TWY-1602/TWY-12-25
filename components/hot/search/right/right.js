@@ -9,12 +9,11 @@ angular.module('rightModule',[])
             }
         }
     }])
-    .controller('RightController',['rightService','$scope','$stateParams','$timeout',function(rightService,$scope,$stateParams,$timeout){
-        $scope.showRight=$stateParams.searchNum;
-
+    .controller('RightController',['rightService','$rootScope','$scope','$stateParams','$timeout',function(rightService,$rootScope,$scope,$stateParams,$timeout){
 
         rightService.getCate().success(function(res) {
-            $scope.arrSearchCate=res.data[101];
-            console.log(res.data[101]);
+            console.log($rootScope.id)
+            $scope.arrSearchCate=res.data[101+$rootScope.id];
+            //console.log($scope.arrSearchCate);
         })
     }])
