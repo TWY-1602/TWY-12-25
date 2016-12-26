@@ -14,21 +14,24 @@ angular.module('categoryModule',[])
 
     }
 }])
-    .controller('CategoryController',['$scope','data1Service','$stateParams',function($scope,data1Service,$stateParams){
+    .controller('CategoryController',['$scope','data1Service','$stateParams','$timeout',function($scope,data1Service,$stateParams,$timeout){
         // console.log($stateParams.num);
-        $scope.sendNum=$stateParams.num;
-        data1Service.ZhuA($scope.sendNum).success(function(res){
-            $scope.arr = res.data.special;
-            $scope.arr02 = res.data.goods;
+        $timeout(function () {
+            console.log($stateParams.num);
+            $scope.sendNum=$stateParams.num;
+            data1Service.ZhuA($scope.sendNum).success(function(res){
+                $scope.arr = res.data.special;
+                $scope.arr02 = res.data.goods;
 
-        });
-        $scope.index=0;
-        $scope.clicked=0;
-        data1Service.ZhuB($scope.sendNum).success(function(res){
-            $scope.arr03=res.data.attr;
-            $scope.arr04=res.data.attr[$scope.index].list;
+            });
+            $scope.index=0;
+            $scope.clicked=0;
+            data1Service.ZhuB($scope.sendNum).success(function(res){
+                $scope.arr03=res.data.attr;
+                $scope.arr04=res.data.attr[$scope.index].list;
 
-        });
+            });
+        },100)
 
 
 
