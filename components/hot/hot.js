@@ -30,7 +30,7 @@ angular.module('hotModule',[])
             }
         }
     }])
-    .controller('HotController',['$scope','$timeout','hotService','$state','$window',function($scope,$timeout,hotService,$state,$window){
+    .controller('HotController',['$scope','$timeout','hotService','$state','$window','$rootScope',function($scope,$timeout,hotService,$state,$window,$rootScope){
         hotService.getA().success(function (res) {
             $scope.arrBanner=[];
             $scope.arrAdv=[];
@@ -88,11 +88,16 @@ angular.module('hotModule',[])
 
 
             }
-            //改变上面的入口
+            // //改变上面的入口
+            // $scope.changeEnter=function (num) {
+            //     $state.go('hot.category',{ num : num});
+            //     console.log(num)
+            // }
             $scope.changeEnter=function (num) {
-                $state.go('hot.category',{ num : num});
-                console.log(num)
+                $rootScope.num = num
             }
+
+
 
             angular.element($window).bind("scroll", function(e) {
                 // console.log(e)

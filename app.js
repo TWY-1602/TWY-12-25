@@ -36,7 +36,7 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
             controller:"MineController"
         })
         .state("hot.category", {
-            url:"/category/:num/",
+            url:"/category",
             templateUrl: "components/hot/category/category.html",
             controller:"CategoryController",
             css:"components/hot/category/category.css"
@@ -63,9 +63,15 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         })
         .state("hot.search.right", {
             url:"/right",
-            css:"components/hot/search/right/right.css",
+            css:["components/hot/search/right/right.css","components/hot/search/search.css"],
             templateUrl: "components/hot/search/right/right.html",
             controller:"RightController"
         })
+        .state("mall.search.right", {
+        url:"/right",
+        css:["components/hot/search/right/right.css","components/hot/search/search.css"],
+        templateUrl: "components/hot/search/right/right.html",
+        controller:"RightController"
+    })
     ;
 });
