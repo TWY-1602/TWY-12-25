@@ -24,6 +24,8 @@
 .wrapper .container .goods-tools-list .changeli2 a{color:#fc6496;}
 .wrapper .container .goods-tools-list .changeli3 a{color:#fc6496;}
 .wrapper .container .goods-tools-list .changeli3:nth-of-type(3) a .icons-px{background-position:-65px -120px; }
+
+
 .wrapper .container .goods-tools-list .changeli5:nth-of-type(5) a .icons-px{background-position:-102px -120px; }
 
 .wrapper .spec-mian .goods-list li{padding:.67rem;border-bottom:1px solid #e3e3e3;}
@@ -38,7 +40,8 @@
 .wrapper .spec-mian .goods-list li .goods-item-details .goods-info .goods-prices .mall-del{color:#735660;font-size:12px;  }
 
 .menu-mask{position: fixed;z-index:102;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,.5); }
-.menu-cont{position: fixed;z-index:104;left:0;bottom:0;width:100%;height:70%;background:#f6f6f6;padding-bottom:94px; }
+.menu-cont{position: fixed;z-index:104;left:0;bottom:0;width:100%;height:70%;background:#f6f6f6;padding-bottom:94px;box-sizing: border-box; }
+.menu-cont .category-main{height:100%; }
 .menu-cont .category-tab-hd{height:100%;position:relative;float:left;width:118px;overflow:hidden;     }
 .menu-cont .category-tab-hd .tab-btn-list{width:100%; }
 .menu-cont .category-tab-hd .tab-btn-list li{height:45px;border-bottom:1px solid #e3e3e3;  }
@@ -46,3 +49,81 @@
 .menu-cont .category-tab-hd .tab-btn-list li a i{display:inline-block;width:28px;height:28px;vertical-align:top;margin:8px 10px 0 0;    }
 .menu-cont .category-tab-cont{height:100%;margin-left:118px;background:white;position: relative;}
 .menu-cont .category-tab-cont .tab-cont-list .select-list li{height:45px;line-height: 45px; }
+.menu-cont .category-tab-cont .tab-cont-list .select-list li a{position:relative;display:block;width:100%;padding:0 50px 0 15px;overflow: hidden;box-sizing: border-box;color:#322228;font-size:12px;}
+.menu-cont .category-tab-cont .tab-cont-list .select-list li a .icons-px{position: absolute;right:15px;top:10.5px;width:24px;height: 24px;display: inline-block;background:url("../../../img/mall_icons.png") 0 -220px;background-size:120px;    }
+.menu-cont .ft{position: absolute;left:0;bottom:0;width:100%;height:94px;overflow: hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
