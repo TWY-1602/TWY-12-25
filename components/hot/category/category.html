@@ -13,27 +13,27 @@
             <div class="banner-time">
                 仅剩
                 <span id="J-miaoshaTimer">
-                    <s class="u-time">14</s>天
-                    <s class="u-time">15</s>时
-                    <s class="u-time">25</s>分
-                    <s class="u-time">59</s>秒
+                    <s class="u-time">{{day}}</s>天
+                    <s class="u-time">{{hour}}</s>时
+                    <s class="u-time">{{min}}</s>分
+                    <s class="u-time">{{second}}</s>秒
                 </span>
             </div>
         </div>
         <div class="goods-tools">
             <div id="j-fixedTool">
                 <ul class="goods-tools-list">
-                    <li ng-class="{changeli1:1==id}" ng-click="changeColor(1)"><a href="javascript:void(0)"><span class="icons-px" ></span>有货</a></li>
-                    <li ng-class="{changeli2:2==id}" ng-click="changeColor(2)"><a href="javascript:void(0)">人气</a></li>
-                    <li ng-class="{changeli3:3==id}" ng-click="changeColor(3)"><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
-                    <li ng-class="{changeli4:4==id}" ng-click="changeColor(4)"><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
-                    <li ng-class="{changeli5:5==id}" ng-click="changeColor(5)"><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
+                    <li ng-class="{true:'change1',false:'fdfafa'}[isChange1]" ng-click="isChange1=!isChange1"><a href="javascript:void(0)"><span class="icons-px" ></span>有货</a></li>
+                    <li ng-class="{true:'change2',false:'fdfafa'}[isChange2]" ng-click="isChange2=!isChange2"><a href="javascript:void(0)">人气</a></li>
+                    <li ng-class="{true:'change3',false:'fdfafa'}[isChange3]" ng-click="isChange3=!isChange3"><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
+                    <li ng-class="{true:'change4',false:'fdfafa'}[isChange4]"      ng-click="show()"><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
+                    <li ng-class="{true:'change5',false:'fdfafa'}[isChange5]" ng-click="isChange5=!isChange5;isChangeli=!isChangeli"><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
                 </ul>
             </div>
         </div>
         <div class="spec-mian">
             <ul class="goods-list">
-                <li ng-repeat="obj in arr02">
+                <li ng-repeat="obj in arr02" ng-class="{true:'changeli',false:'li1'}[isChangeli]">
                     <a class="goods-item-details" href="">
                         <div class="goods-img"><img src="{{obj.goods_thumb}}" alt=""></div>
                         <div class="goods-info">
@@ -51,25 +51,25 @@
         </div>
     </section>
 </div>
-<div class="menu-mask"></div>
-<div class="menu-cont">
+<div class="menu-mask" ng-show=isShow ng-click="hid()"></div>
+<div class="menu-cont" ng-show=isShow>
     <section class="category-main">
         <header class="category-tab-hd">
             <ul class="tab-btn-list">
-                <li ng-repeat="obj in arr03"><a href=""><i></i>{{obj.name}}</a></li>
+                <li ng-repeat="(i,obj) in arr03" ng-click="selectOne(i)" ng-class="{on:i==id2}"><a href=""><i></i>{{obj.name}}</a></li>
             </ul>
         </header>
         <section class="category-tab-cont">
             <div class="tab-cont-list">
                 <ul class="select-list">
-                    <li ng-repeat="(i,obj) in arr04" ng-click="changeIndex(i)"><a href="" ><span class="icons-px"></span>{{obj.text}}</a></li>
+                    <li ng-repeat="(i,obj) in arr04" ng-click="changeIndex(i)" ng-class="{on1:i==id3}"><a href="" ><span class="icons-px"></span>{{obj.text}}</a></li>
                 </ul>
             </div>
         </section>
     </section>
     <footer class="ft">
-        <div class="select-txt">已选择:<span id="j-country" >{{arr04[clicked].text}}</span></div>
-        <div class="b-area"><span class="b-reset">重置</span><span class="b-submit">确定</span></div>
+        <div class="select-txt">已选择:<span id="J-brand" >{{arr04[clicked].text}}</span></div>
+        <div class="b-area"><span class="b-reset" ng-click="cancel()">重置</span><span class="b-submit" ng-click="confirm()">确定</span></div>
     </footer>
 </div>
 
