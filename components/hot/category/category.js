@@ -45,7 +45,7 @@ angular.module('categoryModule',[])
                 });
 
                 $scope.clicked;
-                data1Service.ZhuB($scope.sendNum).success(function(res){
+                data1Service.ZhuB(localStorage.getItem('cateId')).success(function(res){
                     $scope.arr03=res.data.attr;
                     $scope.selectOne=function(i){
                         $scope.arr04=res.data.attr[i].list;
