@@ -14,7 +14,8 @@ angular.module('categoryModule',[])
 
         }
     }])
-            .controller('CategoryController',['$scope','$rootScope','data1Service','$stateParams','$interval',function($scope,$rootScope,data1Service,$stateParams,$interval){
+            .controller('CategoryController',['$scope','$rootScope','data1Service','$stateParams','$interval',
+                function($scope,$rootScope,data1Service,$stateParams,$interval){
                 $scope.day=10;
                 $scope.hour=21;
                 $scope.min=46;
@@ -43,7 +44,7 @@ angular.module('categoryModule',[])
 
                 });
 
-                $scope.clicked=0;
+                $scope.clicked;
                 data1Service.ZhuB($scope.sendNum).success(function(res){
                     $scope.arr03=res.data.attr;
                     $scope.selectOne=function(i){
@@ -91,7 +92,9 @@ angular.module('categoryModule',[])
                 $scope.isShow=false;
             };
             $scope.cancel=function () {
-                    $scope.isChange4=false;
-                    $scope.isShow=false;
+                $scope.isChange4=false;
+                $scope.isShow=false;
+                $scope.id3='不相等';
+                $scope.clicked='不相等';
                 };
         }])
