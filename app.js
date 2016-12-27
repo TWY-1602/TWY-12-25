@@ -12,7 +12,7 @@ window.onload= function () {
         localStorage.setItem('product',JSON.stringify(arrProuct))
     }
 }
-//localStorage.clear();
+
 
 
 var myApp = angular.module("myApp", ['ui.router','me-lazyload','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','detailModule','rightModule']);

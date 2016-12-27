@@ -6,6 +6,7 @@
     </div>
     <div class="master">
         <img src="{{objDetail.goods_thumb}}" alt="">
+        <div ng-show="!show"></div>
     </div>
     <!--活动时间-->
     <div class="time">
@@ -74,12 +75,18 @@
     </ul>
     <div class="img">
     </div>
-    <div class="bottom clearfix">
+    <div class="bottom clearfix" ng-show="show">
         <div class="buyNow">立即购买</div>
         <div class="addcart" ng-click="showInfor()">加入购物车</div>
-        <a href=""><span></span></a>
+        <a href="#shopCar"><span></span><i ng-if="carNum>0">{{carNum}}</i></a>
     </div>
-    <div class="mask" ng-hide="isHide">
+
+    <div class="bottom1" ng-show="!show">
+        <div class="empty">缺货</div>
+        <a href="#shopCar"><span></span><i ng-if="carNum>0">{{carNum}}</i></a>
+    </div>
+
+    <div class="mask" ng-hide="isHide" >
         <div class="buyInfor">
             <div class="infor">
                 <div class="img"><img src="{{objDetail.goods_thumb}}" alt=""></div>
@@ -101,7 +108,7 @@
                     </select>
                 </div>
             </div>
-            <div class="btn">
+            <div class="btn" >
                 <a href="">立刻购买</a>
                 <a href="" ng-click="addProduct()">加入购物车</a>
             </div>

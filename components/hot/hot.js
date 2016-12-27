@@ -113,15 +113,19 @@ angular.module('hotModule',[])
             document.onscroll =function () {
                 var scrollTop = window.pageYOffset||document.body.scrollTop||document.documentElement.scrollTop;
                 // console.log(scrollTop)
-                if(scrollTop>1300){
-                    document.getElementsByClassName('main-bottom')[0].className = "main-bottom fix";
+                if(document.getElementsByClassName('main-bottom')[0].className){
+                    if(scrollTop>1300){
+                        document.getElementsByClassName('main-bottom')[0].className = "main-bottom fix";
+                    }else{
+                        document.getElementsByClassName('main-bottom')[0].className = "main-bottom";
+                    }
+                    if(scrollTop>500){
+                        document.getElementById('returnTop').style.display="block";
+                    }else{
+                        document.getElementById('returnTop').style.display="none";
+                    }
                 }else{
-                    document.getElementsByClassName('main-bottom')[0].className = "main-bottom";
-                }
-                if(scrollTop>500){
-                    document.getElementById('returnTop').style.display="block";
-                }else{
-                    document.getElementById('returnTop').style.display="none";
+                    document.onscroll=null;
                 }
             }
             $scope.returnTop=function () {

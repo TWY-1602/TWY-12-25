@@ -1,60 +1,48 @@
 <div id="shopCar">
     <div class="header">
         <p>购物车</p>
-        <a href="">完成</a>
+        <a href="" ng-click="changeStatus()">{{text}}</a>
     </div>
-    <div class="main-empty" ng-hide="false">
+    <div class="main-empty" ng-show="isHide">
         <div></div>
         <p>空空的</p>
-        <a href="">去逛逛</a>
+        <a href="#hot">去逛逛</a>
     </div>
-
     <!--有商品的购物车页面-->
-    <div class="main-product" ng-hide="true">
+    <div class="main-product" ng-hide="isHide">
         <ul class="product-list">
-            <li>
-                <div class="checkBtn"></div>
-                <div class="img"><img src="" alt=""></div>
+            <li ng-repeat="(i,obj) in arrChoosed">
+                <span ng-hide="showDel" ng-class="{checkNo:arrClass[i]}" ng-click="isCheck(i)"></span><div ng-hide="!showDel" class="delBtn" ng-click="delProduct()"></div>
+                <div class="img"><img src="{{obj.img}}" alt=""></div>
                 <div class="infor">
-                    <p>【保税区直发】 澳大利亚Goat Soap 纯手工山羊奶皂100g 柠檬味 【3件起发】</p>
-                    <p>规格默认</p>
+                    <p>{{obj.des}}</p>
+                    <p>规格:默认</p>
                 </div>
                 <div class="good-price">
-                    <span>¥23.00</span>
-                    <select name="" id="">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
-                        <option value="">6</option>
-                        <option value="">7</option>
-                        <option value="">8</option>
-                        <option value="">9</option>
-                        <option value="">10</option>
+                    <span>¥{{obj.price}}</span>
+                    <select   ng-model="text1"  ng-change="changeSelect(i)">
+                        <option value="{{str}}"  ng-repeat="(i,str) in obj.storeNum" ng-class="{selected:obj.count==str}" >{{str}}</option>
                     </select>
                 </div>
             </li>
         </ul>
     </div>
 
-
-
-
-
-
-
-
-
     <div class="bottom">
-        <a class="checkAll" href=""><span></span>全选</a>
+        <a class="checkAll" href=""><span ng-class="{all:isAll}" ng-click="chooseAll()"></span>全选</a>
         <div>
             <span class="total">合计:</span>
-            <span class="price">￥0.00</span>
+            <span class="price">￥{{total}}</span>
         </div>
         <a href="" class="all">结算</a>
     </div>
     <div class="dis"></div>
+    <div class="maskAll" ng-hide="isDel">
+        <div>
+            <div class="question">你确定要删除吗？</div>
+            <div class="btn"><span class="trueBtn" ng-click="cancel()">取消</span><span class="noBtn" ng-click="confirm()">删除</span></div>
+        </div>
+    </div>
 </div>
 
 

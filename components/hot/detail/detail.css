@@ -9,8 +9,12 @@
 #detail .header a:nth-child(3){float: right;margin-top:0.5rem; }
 #detail .header a:nth-child(3) span{height: 1.48rem;width: 1.48rem;display: block; background: url(img/mall_icons.png) no-repeat -2.1rem -8.625rem;  background-size:7.5rem;}
 /*主图部分*/
-#detail .master{width: 100%;height: 20rem;margin-top: 2.2rem;}
+#detail .master{width: 100%;height: 20rem;margin-top: 2.2rem;position: relative;}
 #detail .master img{height: 100%;}
+#detail .master>div{position: absolute;width:11rem;height: 11rem;background:url("img/sold_out_350.png") no-repeat;background-size:100% 100%;top:3.75rem;left:4rem; }
+
+
+
 #detail .time{width: 100%;height: 1.5rem;background: #ffecf2;}
 #detail .time p{font-size: 0.75rem;text-align: center;line-height: 1.5rem;}
 #detail .time p span{color: #fc6496;}
@@ -76,8 +80,22 @@ border-bottom: 1px solid #e3e3e3;  color: #735660;  }
 #detail .bottom div{width: 8rem;height: 100%;text-align: center;line-height: 3rem;color: #fff;float: left;}
 #detail .bottom .buyNow{background-color: #ffab33;width: 8rem;float: left;}
 #detail .bottom .addcart{ background-color: #fc6496;}
-#detail .bottom a{width: 4rem;  display: block;line-height:3rem;text-align: center; float: left;}
+#detail .bottom a{width: 4rem;  display: block;line-height:4rem;text-align: center; float: left;position: relative;}
 #detail .bottom a span{ background: url(img/mall_icons.png) no-repeat 0 -16.81rem;display: inline-block;width:1.5rem;height: 1.5rem;background-size: 7.5rem;}
+#detail .bottom a i,#detail .bottom1 a i{display: block;width:1.25rem;height:1.25rem;border-radius: 50%;position: absolute;background: #ff3956;text-align: center;line-height: 1.25rem;font-size:0.75rem;color:#fff;top:0.2rem;right:0.25rem;font-style: normal; }
+
+
+
+
+#detail .bottom1{ height: 3rem;  width: 100%;  position: fixed; bottom: 0;  background: #735660;  }
+#detail .bottom1>div{width: 16rem;height: 100%;text-align: center;line-height: 3rem;color: #fff;float: left;background:#85888d; }
+#detail .bottom1 a{width: 4rem;  display: block;line-height:3rem;text-align: center; float: left;}
+#detail .bottom1 a span{ background: url(img/mall_icons.png) no-repeat 0 -16.81rem;display: inline-block;width:1.5rem;height: 1.5rem;background-size: 7.5rem;}
+
+
+
+
+
 
 
 #detail .mask{position: fixed;width:100%;height:100%;top:0;background: rgba(0,0,0,0.5);  z-index:300; }
