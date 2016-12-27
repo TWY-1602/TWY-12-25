@@ -89,12 +89,14 @@ angular.module('hotModule',[])
             //     console.log(num)
             // }
             $scope.changeEnter=function (num) {
-                $rootScope.num = num;
+                localStorage.setItem('cateId',num);
+                // $rootScope.num = num;
                 document.onscroll=null;
             };
             //从今日爆款进入详情页
             $scope.enterDetail=function (id) {
-                $rootScope.goodId = id;
+                //$rootScope.goodId = id;
+                localStorage.setItem('detailId',id);
                 document.onscroll=null;
             }
             // $scope.isFix=false;

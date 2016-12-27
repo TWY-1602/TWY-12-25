@@ -37,8 +37,8 @@ angular.module('categoryModule',[])
                 },1000);
 
 
-                $scope.sendNum=$rootScope.num;
-                data1Service.ZhuA($scope.sendNum).success(function(res){
+                // $scope.sendNum=$rootScope.num;
+                data1Service.ZhuA(localStorage.getItem('cateId')).success(function(res){
                     $scope.arr = res.data.special;
                     $scope.arr02 = res.data.goods;
 

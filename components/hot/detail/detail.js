@@ -12,7 +12,7 @@ angular.module('detailModule',[])
     .controller('DetailController',['detailService','$scope','$rootScope','$timeout',function(detailService,$scope,$rootScope,$timeout){
 
 
-        detailService.getDetail($rootScope.goodId).success(function (res) {
+        detailService.getDetail(localStorage.getItem('detailId')).success(function (res) {
             //获取json数据
             //购物车数字
             $scope.carNum = showNum();
