@@ -43,7 +43,7 @@
 .wrapper .spec-mian .goods-list .changeli .goods-item-details{display: block;height: auto;padding:10px;background:white;}
 .wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-img{position:relative;width:100%;padding-bottom:100%;}
 .wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-img img{position: absolute;width: 100%;vertical-align: top;}
-.wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-info h5{height:21px;line-height:21px;overflow: hidden;margin-top: 6px;}
+.wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-info h5{height:21px;line-height:21px;overflow: hidden;margin-top: 6px;color:#735660;}
 .wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-info .goods-record{display:none; }
 .wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-info .goods-prices{margin-top:9px;}
 .wrapper .spec-mian .goods-list .changeli .goods-item-details .goods-info .goods-prices .mall-discount{color:#735660;font-size:12px;float: right;  }
