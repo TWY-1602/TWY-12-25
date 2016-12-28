@@ -1,0 +1,11 @@
+.wraper{width:100%;height:100%;position:absolute;top:0;right:0;z-index:101;background:white;font-size:14px;overflow-y: auto;overflow-x:hidden;background:rgb(246,246,246);  }
+.wraper .mall-header{width:100%;height:45px;position: relative;}
+.wraper .mall-header .inside{background:white;height:45px;line-height:45px;box-sizing: border-box;font-size:18px;overflow:hidden;height:100%;}
+.wraper .mall-header .b-left{float:left;height:100%;}
+.wraper .mall-header a{padding:0 10px 0 15px;display: block;height:100%; }
+.wraper .mall-header .icons-px{background:url("../../../img/mall_icons.png") -22px -138px no-repeat;background-size:120px;width:11px;height:22.5px;display: block;top:8.75px;position:relative;     }
+.wraper .mall-header h1{position: absolute;left:25%;width:50%;height:100%;font-size:18px;text-align: center;overflow: hidden;}
+
+.wraper .search-empty{width:100%;padding:50px 0;}
+.wraper .search-empty .bg-icons{width:148px;height:134px;display: block;margin:auto;background:url("http://m.lamall.com/static/images/h5_v2/bg_icons.png") 0 0 no-repeat;background-size:148px;}
+.wraper .search-empty .text{margin-top:8px;color:#735660;line-height:14px;text-align:center;}

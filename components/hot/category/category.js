@@ -14,8 +14,7 @@ angular.module('categoryModule',[])
 
         }
     }])
-            .controller('CategoryController',['$scope','$rootScope','data1Service','$stateParams','$interval',
-                function($scope,$rootScope,data1Service,$stateParams,$interval){
+            .controller('CategoryController',['$scope','$rootScope','data1Service','$stateParams','$interval', function($scope,$rootScope,data1Service,$stateParams,$interval){
                 $scope.day=10;
                 $scope.hour=21;
                 $scope.min=46;

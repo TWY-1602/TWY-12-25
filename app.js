@@ -15,7 +15,7 @@ window.onload= function () {
 
 
 
-var myApp = angular.module("myApp", ['ui.router','me-lazyload','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','detailModule','rightModule']);
+var myApp = angular.module("myApp", ['ui.router','me-lazyload','angularCSS','hotModule','shopCarModule','mineModule','searchModule','mallCarModule','categoryModule','detailModule','rightModule','indentModule']);
 
 myApp.config(function ($stateProvider, $urlRouterProvider) {
 
@@ -83,5 +83,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider) {
         templateUrl: "components/hot/search/right/right.html",
         controller:"RightController"
     })
+        .state("mine.indent", {
+            url:"/indent",
+            css:["components/mine/indent/indent.css"],
+            templateUrl: "components/mine/indent/indent.html",
+            controller:"IndentController"
+        })
     ;
 });
