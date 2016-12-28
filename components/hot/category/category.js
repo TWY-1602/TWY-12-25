@@ -61,20 +61,67 @@ angular.module('categoryModule',[])
                 $scope.changeIndex=function (i) {
                     $scope.clicked=i;
                     $scope.id3=i;
+                    if(localStorage.getItem('cateId')==1){
+                        if(i==3||i==5){
+                            $scope.filterBy = this.$$watchers[1].last;
+                        }else{
+                            $scope.filterBy="";
+                        }
+                    }else {
+                        $scope.filterBy = this.$$watchers[1].last;
+                    }
+
                 };
+                $scope.filterBy="";
+                $scope.changefilterBy=function () {
+
+
+                }
 
                 $scope.isChange1=false;
                 $scope.isChange2=false;
-                $scope.isChange3=false;
+                $scope.isChange3='ss';
                 $scope.isChange4=false;
                 $scope.isChange5=false;
                 $scope.isChangeli=false;
+                    
+            $scope.Change1=function () {
+                $scope.isChange1=!$scope.isChange1;
+            };
+            $scope.Change2=function () {
+                $scope.isChange2=!$scope.isChange2;
+                $scope.isChange3='ss';
+                $scope.clickNum=0;
+
+            };
+            $scope.clickNum=0;
+            $scope.Change3=function (type) {
+                $scope.isChange2=false;
+                $scope.clickNum++;
+                if($scope.clickNum==1){
+                    $scope.isChange3=true;
+                    $scope.orderType=type;
+                    $scope.des = true;
+                }else if($scope.clickNum==2){
+                    $scope.isChange3=false;
+                    $scope.orderType=type;
+                    $scope.des = false;
+                }else if($scope.clickNum==3){
+                    $scope.isChange3='ss';
+                    $scope.clickNum=0;
+                    $scope.orderType="";
+                }
+
+
+            };
+            $scope.Change5=function () {
+                $scope.isChange5=!$scope.isChange5;
+                $scope.isChangeli=!$scope.isChangeli;
+            };
 
 
 
-
-
-            $scope.changeColor=function(str){
+                    $scope.changeColor=function(str){
                 $scope.id=str;
             };
 
@@ -90,6 +137,7 @@ angular.module('categoryModule',[])
             $scope.confirm=function () {
                 $scope.isChange4=true;
                 $scope.isShow=false;
+                console.log(this)
             };
             $scope.cancel=function () {
                 $scope.isChange4=false;

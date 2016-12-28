@@ -23,17 +23,17 @@
         <div class="goods-tools">
             <div id="j-fixedTool">
                 <ul class="goods-tools-list">
-                    <li ng-class="{true:'change1',false:'fdfafa'}[isChange1]" ng-click="isChange1=!isChange1"><a href="javascript:void(0)"><span class="icons-px" ></span>有货</a></li>
-                    <li ng-class="{true:'change2',false:'fdfafa'}[isChange2]" ng-click="isChange2=!isChange2"><a href="javascript:void(0)">人气</a></li>
-                    <li ng-class="{true:'change3',false:'fdfafa'}[isChange3]" ng-click="isChange3=!isChange3"><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
+                    <li ng-class="{true:'change1',false:'fdfafa'}[isChange1]" ng-click="Change1()"><a href="javascript:void(0)"><span class="icons-px" ></span>有货</a></li>
+                    <li ng-class="{true:'change2',false:'fdfafa'}[isChange2]" ng-click="Change2()"><a href="javascript:void(0)">人气</a></li>
+                    <li ng-class="{true:'change3',false:'change31'}[isChange3]" ng-click="Change3('shop_price/1')"><a href="javascript:void(0)"><span class="icons-px"></span>价格</a></li>
                     <li ng-class="{true:'change4',false:'fdfafa'}[isChange4]" ng-click="show()"><a href="javascript:void(0)"><span class="icons-px"></span>筛选</a></li>
-                    <li ng-class="{true:'change5',false:'fdfafa'}[isChange5]" ng-click="isChange5=!isChange5;isChangeli=!isChangeli"><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
+                    <li ng-class="{true:'change5',false:'fdfafa'}[isChange5]" ng-click="Change5()"><a href="javascript:void(0)"><span class="icons-px"></span></a></li>
                 </ul>
             </div>
         </div>
         <div class="spec-mian">
             <ul class="goods-list">
-                <li ng-repeat="obj in arr02" ng-class="{true:'changeli',false:'li1'}[isChangeli]">
+                <li ng-repeat="obj in arr02 | filter:filterBy |orderBy:orderType:des" ng-class="{true:'changeli',false:'li1'}[isChangeli]">
                     <a class="goods-item-details" href="">
                         <div class="goods-img"><img src="{{obj.goods_thumb}}" alt=""></div>
                         <div class="goods-info">
